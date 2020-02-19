@@ -1,0 +1,795 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Reference documentation for TietzeIO.CyShell, a powershell module to interface with Cylance APIs">
+      
+      
+      
+        <meta name="author" content="Jan Tietze">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="/TietzeIO.CyShell/assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Examples - jan-tee.github.io</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#safelisting-and-quarantining" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="jan-tee.github.io" class="md-header-nav__button md-logo">
+          
+            <img src="/TietzeIO.CyShell/assets/cyshell-icon-flattened-128x128.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              jan-tee.github.io
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Examples
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="jan-tee.github.io" class="md-nav__button md-logo">
+      
+        <img src="/TietzeIO.CyShell/assets/cyshell-icon-flattened-128x128.png" width="48" height="48">
+      
+    </a>
+    jan-tee.github.io
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      TietzeIO.CyShell
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        TietzeIO.CyShell
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="index.html" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting_started.html" title="Getting started" class="md-nav__link">
+      Getting started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="new_to_powershell.html" title="New to Powershell?" class="md-nav__link">
+      New to Powershell?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="foundations.html" title="Foundations" class="md-nav__link">
+      Foundations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Examples
+      </label>
+    
+    <a href="examples.html" title="Examples" class="md-nav__link md-nav__link--active">
+      Examples
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#safelisting-and-quarantining" title="Safelisting and quarantining" class="md-nav__link">
+    Safelisting and quarantining
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-all-hashes-from-an-excel-file-to-global-quarantine-list" title="Add all hashes from an Excel file to Global Quarantine list" class="md-nav__link">
+    Add all hashes from an Excel file to Global Quarantine list
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safelist-all-trusted-files" title="Safelist all 'Trusted' files" class="md-nav__link">
+    Safelist all 'Trusted' files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-management" title="Device management" class="md-nav__link">
+    Device management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list-devices-that-have-been-offline" title="List devices that have been offline" class="md-nav__link">
+    List devices that have been offline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#policy-management" title="Policy management" class="md-nav__link">
+    Policy management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-all-script-exclusions-from-all-policies" title="Get all script exclusions from all policies" class="md-nav__link">
+    Get all script exclusions from all policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-all-memory-protection-exclusions-from-all-policies" title="Get all memory protection exclusions from all policies" class="md-nav__link">
+    Get all memory protection exclusions from all policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-memory-protection-and-script-control-exclusions-to-all-policies" title="Copy memory protection and script control exclusions to all policies" class="md-nav__link">
+    Copy memory protection and script control exclusions to all policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-policy" title="Create a new policy" class="md-nav__link">
+    Create a new policy
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-detections" title="Working with detections" class="md-nav__link">
+    Working with detections
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mine-detections" title="Mine detections" class="md-nav__link">
+    Mine detections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-detections-based-on-artifacts" title="Update detections based on artifacts" class="md-nav__link">
+    Update detections based on artifacts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="TietzeIO.CyShell.html" title="Cmdlets" class="md-nav__link">
+      Cmdlets
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="/TietzeIO.CyAPI/api/" title="TietzeIO.CyAPI" class="md-nav__link">
+      TietzeIO.CyAPI
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="/about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#safelisting-and-quarantining" title="Safelisting and quarantining" class="md-nav__link">
+    Safelisting and quarantining
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-all-hashes-from-an-excel-file-to-global-quarantine-list" title="Add all hashes from an Excel file to Global Quarantine list" class="md-nav__link">
+    Add all hashes from an Excel file to Global Quarantine list
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safelist-all-trusted-files" title="Safelist all 'Trusted' files" class="md-nav__link">
+    Safelist all 'Trusted' files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-management" title="Device management" class="md-nav__link">
+    Device management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list-devices-that-have-been-offline" title="List devices that have been offline" class="md-nav__link">
+    List devices that have been offline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#policy-management" title="Policy management" class="md-nav__link">
+    Policy management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-all-script-exclusions-from-all-policies" title="Get all script exclusions from all policies" class="md-nav__link">
+    Get all script exclusions from all policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-all-memory-protection-exclusions-from-all-policies" title="Get all memory protection exclusions from all policies" class="md-nav__link">
+    Get all memory protection exclusions from all policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-memory-protection-and-script-control-exclusions-to-all-policies" title="Copy memory protection and script control exclusions to all policies" class="md-nav__link">
+    Copy memory protection and script control exclusions to all policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-policy" title="Create a new policy" class="md-nav__link">
+    Create a new policy
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-detections" title="Working with detections" class="md-nav__link">
+    Working with detections
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mine-detections" title="Mine detections" class="md-nav__link">
+    Mine detections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-detections-based-on-artifacts" title="Update detections based on artifacts" class="md-nav__link">
+    Update detections based on artifacts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Examples</h1>
+                
+                <h2 id="safelisting-and-quarantining">Safelisting and quarantining<a class="headerlink" href="#safelisting-and-quarantining" title="Permanent link">&para;</a></h2>
+<h3 id="add-all-hashes-from-an-excel-file-to-global-quarantine-list">Add all hashes from an Excel file to Global Quarantine list<a class="headerlink" href="#add-all-hashes-from-an-excel-file-to-global-quarantine-list" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="nb">import-excel</span> <span class="p">.\</span><span class="n">HashesFromExcel</span><span class="p">.</span><span class="n">xlsx</span><span class="p">).</span><span class="n">Hash</span> <span class="p">|</span> <span class="nb">Add-ToCylanceGlobalSafeList</span> <span class="n">-Category</span> <span class="n">None</span> <span class="n">-Reason</span> <span class="s2">&quot;Test&quot;</span> 
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Prerequisite</p>
+<p>Note that this example assumes that you have the module <code>ImportExcel</code> installed already.</p>
+</div>
+<h3 id="safelist-all-trusted-files">Safelist all 'Trusted' files<a class="headerlink" href="#safelist-all-trusted-files" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="nb">Get-CylanceThreats</span> <span class="p">|</span> <span class="nb">where </span><span class="n">classification</span> <span class="o">-eq</span> <span class="s2">&quot;Trusted&quot;</span> <span class="p">|</span> <span class="nb">Add-ToCylanceGlobalSafeList</span> <span class="n">-Category</span> <span class="n">None</span> <span class="n">-Reason</span> <span class="s2">&quot;Trusted&quot;</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">What happens when a file was safelisted already?</p>
+<p>This script does not care; and CyShell will silently ignore those entries.</p>
+</div>
+<h2 id="device-management">Device management<a class="headerlink" href="#device-management" title="Permanent link">&para;</a></h2>
+<h3 id="list-devices-that-have-been-offline">List devices that have been offline<a class="headerlink" href="#list-devices-that-have-been-offline" title="Permanent link">&para;</a></h3>
+<p>To list the devices that have been offline for longer than <code>$days</code>:</p>
+<div class="codehilite"><pre><span></span><span class="nv">$days</span> <span class="p">=</span> <span class="n">5</span>
+<span class="nb">get-cylancedevices</span> <span class="p">|</span> <span class="nb">get-cylancedevice</span> <span class="p">|</span> <span class="nb">where </span><span class="n">date_offline</span> <span class="o">-ne</span> <span class="nv">$null</span> <span class="p">|</span> <span class="nb">where </span><span class="n">date_offline</span> <span class="o">-lt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="n">AddDays</span><span class="p">(-</span><span class="nv">$days</span><span class="p">)</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The <code>Get-CylanceDevice</code> cmdlet expands the metadata object returned by the <code>Get-CylanceDevices</code> cmdlet into a full device object that includes the <code>date_offline</code> (date the device went offline) date. You need to test for <code>$null</code> because devices that are currently online, and some other devices, may not have the field populated at all; you want to exclude those from comparison.</p>
+</div>
+<h2 id="policy-management">Policy management<a class="headerlink" href="#policy-management" title="Permanent link">&para;</a></h2>
+<h3 id="get-all-script-exclusions-from-all-policies">Get all script exclusions from all policies<a class="headerlink" href="#get-all-script-exclusions-from-all-policies" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="p">(</span><span class="nb">Get-CylancePolicies</span> <span class="p">|</span> <span class="nb">Get-CylancePolicy</span><span class="p">).</span><span class="n">ScriptExclusions</span> <span class="p">|</span> <span class="nb">Sort </span><span class="n">-Unique</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The <code>Get-CylancePolicy</code> cmdlet expands the metadata object returned by the <code>Get-CyancePolicies</code> cmdlet into a full policy object. Policy objects do not just contain the policy data, but are extended with <em>convenience</em> methods and properties that give access to policy logic without having to understand the policy object itself; one of those methods is <code>.ScriptExclusions</code>, which returns a list of script control rules set in the policy. When applied to a set of objects in Powershell (<code>(...)</code>), it will be called on each object in the set (= on each policy in the list). The resultant rule entries may contain duplicates, which are removed and sorted using <code>| Sort -Unique</code>.</p>
+</div>
+<h3 id="get-all-memory-protection-exclusions-from-all-policies">Get all memory protection exclusions from all policies<a class="headerlink" href="#get-all-memory-protection-exclusions-from-all-policies" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="p">(</span><span class="nb">Get-CylancePolicies</span> <span class="p">|</span> <span class="nb">Get-CylancePolicy</span><span class="p">).</span><span class="n">MemoryExclusions</span> <span class="p">|</span> <span class="nb">Sort </span><span class="n">-Unique</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><em>See note above for details</em>.</p>
+</div>
+<h3 id="copy-memory-protection-and-script-control-exclusions-to-all-policies">Copy memory protection and script control exclusions to all policies<a class="headerlink" href="#copy-memory-protection-and-script-control-exclusions-to-all-policies" title="Permanent link">&para;</a></h3>
+<p>This will collect script control and memory protection exclusion settings and add all of them to all policies that have Script Control or Memory Protection enabled</p>
+<div class="codehilite"><pre><span></span><span class="nv">$policies</span> <span class="p">=</span> <span class="nb">Get-CylancePolicies</span> <span class="p">|</span> <span class="nb">Get-CylancePolicy</span>
+<span class="nv">$s_ex</span> <span class="p">=</span> <span class="nv">$policies</span><span class="p">.</span><span class="n">ScriptExclusions</span> <span class="p">|</span> <span class="nb">sort </span><span class="n">-Unique</span>
+<span class="nv">$m_ex</span> <span class="p">=</span> <span class="nv">$policies</span><span class="p">.</span><span class="n">MemoryExclusions</span> <span class="p">|</span> <span class="nb">sort </span><span class="n">-Unique</span>
+
+<span class="k">foreach</span> <span class="p">(</span><span class="nv">$policy</span> <span class="k">in</span> <span class="nv">$policies</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$policy</span><span class="p">.</span><span class="n">ScriptControlEnabled</span><span class="p">)</span> <span class="p">{</span> 
+        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$s</span> <span class="k">in</span> <span class="nv">$s_ex</span><span class="p">)</span> <span class="p">{</span> 
+            <span class="nv">$policy</span><span class="p">.</span><span class="n">AddScriptExclusion</span><span class="p">(</span><span class="nv">$s</span><span class="p">)</span> 
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$policy</span><span class="p">.</span><span class="n">MemoryProtectionEnabled</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">foreach</span> <span class="p">(</span><span class="nv">$m</span> <span class="k">in</span> <span class="nv">$m_ex</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nv">$policy</span><span class="p">.</span><span class="n">AddMemoryExclusion</span><span class="p">(</span><span class="nv">$m</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nv">$policies</span> <span class="p">|</span> <span class="nb">Update-CylancePolicy</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If an entry is already present, the convenient update methods <code>AddScriptExclusion</code> and <code>AddMemoryExclusion</code> will just ignore the entry. It will not be added twice.</p>
+</div>
+<div class="admonition warning minimum version">
+<p class="admonition-title">Warning</p>
+<p>This requires CyShell 1.0.8 at a minimum</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This sample code will write all policies, not just those that were updated</p>
+</div>
+<h3 id="create-a-new-policy">Create a new policy<a class="headerlink" href="#create-a-new-policy" title="Permanent link">&para;</a></h3>
+<p>This creates a new policy <code>NEW POLICY</code> in the current session:</p>
+<div class="codehilite"><pre><span></span><span class="nv">$policy</span> <span class="p">=</span> <span class="nb">New-CylancePolicy</span> <span class="n">-Name</span> <span class="s2">&quot;NEW POLICY&quot;</span>
+</pre></div>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The returned object is of type <code>CyPolicy</code> and allows you to access the raw structure of the policy as well as convenient methods and properties to manipulate the policy.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is strongly advised to always use the convenience methods (available at the top level of the policy) rather than accessing policy properties directly. Policy manipulation using the raw policy properties is difficult and requires knowledge that is not commonly available. The convenience methods can be found in the <a href="/TietzeIO.CyAPI/api/TietzeIO.CyAPI.Entities.Policy.CyPolicy.html">CyPolicy</a> documentation of the <a href="/TietzeIO.CyAPI/">TietzeIO.CyAPI</a> library.</p>
+</div>
+<h2 id="working-with-detections">Working with detections<a class="headerlink" href="#working-with-detections" title="Permanent link">&para;</a></h2>
+<h3 id="mine-detections">Mine detections<a class="headerlink" href="#mine-detections" title="Permanent link">&para;</a></h3>
+<p>This examines all detections for commonalities:</p>
+<div class="codehilite"><pre><span></span><span class="nb">Connect-Cylance</span> <span class="n">-Console</span> <span class="n">MyConsole</span> <span class="n">-ProtectCache</span> <span class="n">-OpticsCache</span>
+<span class="nv">$Analysis</span> <span class="p">=</span> <span class="nb">Invoke-CylanceArtifactAnalysis</span>
+</pre></div>
+
+<p>This examines the most recent 10,000 detections and analyzes them for artifact/facet commonalities by organizing collected combinations of artifacts/facets from a detectin in buckets built from a subset of the facets (e.g. one bucket could be "target process image file hash" and "target process commandline", while another bucket could be "instigating process name" and "destination network address"). You can examine the buckets by looking at the output:</p>
+<div class="codehilite"><pre><span></span><span class="nv">$Analysis</span> <span class="p">|</span> <span class="nb">ft</span>
+</pre></div>
+
+<p>To look at a result, pick one rule, and look at the buckets and the number of hits for each bucket. These are candidates for bulk handling, or for creating detection exclusions:</p>
+<div class="codehilite"><pre><span></span><span class="nv">$Analysis</span><span class="p">[</span><span class="n">0</span><span class="p">].</span><span class="n">Buckets</span> <span class="p">|</span> <span class="nb">select </span><span class="n">type</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="n">hits</span> <span class="p">|</span> <span class="nb">ft</span>
+</pre></div>
+
+<p>Let's say you found out that anything in the top-most bucket (highest number of hits) you'd like to handle by updating the detection status for all affected detections:</p>
+<div class="codehilite"><pre><span></span><span class="nv">$Analysis</span><span class="p">[</span><span class="n">0</span><span class="p">].</span><span class="n">Buckets</span><span class="p">[</span><span class="n">0</span><span class="p">].</span><span class="n">Members</span><span class="p">.</span><span class="n">Detection</span> <span class="p">|</span> <span class="nb">Update-CylanceDetection</span> <span class="n">-Status</span> <span class="n">Reviewed</span> <span class="n">-Comment</span> <span class="s2">&quot;Done&quot;</span>
+</pre></div>
+
+<h3 id="update-detections-based-on-artifacts">Update detections based on artifacts<a class="headerlink" href="#update-detections-based-on-artifacts" title="Permanent link">&para;</a></h3>
+<p>Select all detections (from the cached detections) where the <code>Instigating Process</code> artifact matches <code>*cmd*/c sc query*</code> and update the detections.</p>
+<div class="codehilite"><pre><span></span><span class="nb">Connect-Cylance</span> <span class="n">-Console</span> <span class="n">MyConsole</span> <span class="n">-OpticsCache</span>
+<span class="nv">$matching_detections</span> <span class="p">=</span> <span class="nb">Get-CylanceCachedDetections</span> <span class="n">-Detailed</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span> 
+    <span class="nv">$process</span> <span class="p">=</span> <span class="nv">$_</span> <span class="p">|</span> <span class="nb">Select-CylanceArtifact</span> <span class="n">-Type</span> <span class="k">Process</span> <span class="n">-Source</span> <span class="s1">&#39;Instigating Process&#39;</span> <span class="p">;</span> <span class="k">if</span> <span class="p">(</span><span class="nv">$process</span><span class="p">.</span><span class="n">CommandLine</span> <span class="o">-ilike</span> <span class="s2">&quot;*cmd*/c sc query*&quot;</span><span class="p">)</span> <span class="p">{</span> 
+        <span class="nv">$_</span> 
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="nv">$matching_detections</span> <span class="p">|</span> <span class="nb">Update-CylanceDetection</span> <span class="n">-Status</span> <span class="n">Reviewed</span> <span class="n">-Comment</span> <span class="s2">&quot;This detection is not relevant&quot;</span>
+</pre></div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="foundations.html" title="Foundations" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Foundations
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="TietzeIO.CyShell.html" title="Cmdlets" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Cmdlets
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.245445c6.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>

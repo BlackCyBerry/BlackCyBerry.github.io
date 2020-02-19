@@ -1,0 +1,1790 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Reference documentation for TietzeIO.CyShell, a powershell module to interface with Cylance APIs">
+      
+      
+      
+        <meta name="author" content="Jan Tietze">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="/TietzeIO.CyShell/assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Cmdlets - jan-tee.github.io</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#tietzeiocyshell-module" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="jan-tee.github.io" class="md-header-nav__button md-logo">
+          
+            <img src="/TietzeIO.CyShell/assets/cyshell-icon-flattened-128x128.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              jan-tee.github.io
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Cmdlets
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="jan-tee.github.io" class="md-nav__button md-logo">
+      
+        <img src="/TietzeIO.CyShell/assets/cyshell-icon-flattened-128x128.png" width="48" height="48">
+      
+    </a>
+    jan-tee.github.io
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      TietzeIO.CyShell
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        TietzeIO.CyShell
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="index.html" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting_started.html" title="Getting started" class="md-nav__link">
+      Getting started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="new_to_powershell.html" title="New to Powershell?" class="md-nav__link">
+      New to Powershell?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="foundations.html" title="Foundations" class="md-nav__link">
+      Foundations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples.html" title="Examples" class="md-nav__link">
+      Examples
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Cmdlets
+      </label>
+    
+    <a href="TietzeIO.CyShell.html" title="Cmdlets" class="md-nav__link md-nav__link--active">
+      Cmdlets
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tietzeiocyshell-cmdlets" title="TietzeIO.CyShell Cmdlets" class="md-nav__link">
+    TietzeIO.CyShell Cmdlets
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backup-cylanceopticspackages" title="Backup-CylanceOpticsPackages" class="md-nav__link">
+    Backup-CylanceOpticsPackages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backup-cylancetenant" title="Backup-CylanceTenant" class="md-nav__link">
+    Backup-CylanceTenant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylanceissuersignaturemissingwizard" title="Invoke-CylanceIssuerSignatureMissingWizard" class="md-nav__link">
+    Invoke-CylanceIssuerSignatureMissingWizard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-cylancedevicetozone" title="Add-CylanceDeviceToZone" class="md-nav__link">
+    Add-CylanceDeviceToZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-tocylanceglobalquarantinelist" title="Add-ToCylanceGlobalQuarantineList" class="md-nav__link">
+    Add-ToCylanceGlobalQuarantineList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-tocylanceglobalsafelist" title="Add-ToCylanceGlobalSafeList" class="md-nav__link">
+    Add-ToCylanceGlobalSafeList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-cylancedevicethreat" title="Block-CylanceDeviceThreat" class="md-nav__link">
+    Block-CylanceDeviceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-cylancecache" title="Clear-CylanceCache" class="md-nav__link">
+    Clear-CylanceCache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-cylance" title="Connect-Cylance" class="md-nav__link">
+    Connect-Cylance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-cylanceobjecttojson" title="Convert-CylanceObjectToJson" class="md-nav__link">
+    Convert-CylanceObjectToJson
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-cylancetdrtoxlsx" title="Convert-CylanceTDRtoXLSX" class="md-nav__link">
+    Convert-CylanceTDRtoXLSX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-cylancepolicy" title="Copy-CylancePolicy" class="md-nav__link">
+    Copy-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disconnect-cylance" title="Disconnect-Cylance" class="md-nav__link">
+    Disconnect-Cylance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-cylanceapplicationtemplate" title="Enable-CylanceApplicationTemplate" class="md-nav__link">
+    Enable-CylanceApplicationTemplate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceartifact" title="Get-CylanceArtifact" class="md-nav__link">
+    Get-CylanceArtifact
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancecacheddetections" title="Get-CylanceCachedDetections" class="md-nav__link">
+    Get-CylanceCachedDetections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancecachedthreatdevices" title="Get-CylanceCachedThreatDevices" class="md-nav__link">
+    Get-CylanceCachedThreatDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancecachedthreats" title="Get-CylanceCachedThreats" class="md-nav__link">
+    Get-CylanceCachedThreats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceconsole" title="Get-CylanceConsole" class="md-nav__link">
+    Get-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetection" title="Get-CylanceDetection" class="md-nav__link">
+    Get-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionexception" title="Get-CylanceDetectionException" class="md-nav__link">
+    Get-CylanceDetectionException
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionexceptions" title="Get-CylanceDetectionExceptions" class="md-nav__link">
+    Get-CylanceDetectionExceptions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionrule" title="Get-CylanceDetectionRule" class="md-nav__link">
+    Get-CylanceDetectionRule
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionrules" title="Get-CylanceDetectionRules" class="md-nav__link">
+    Get-CylanceDetectionRules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionruleset" title="Get-CylanceDetectionRuleSet" class="md-nav__link">
+    Get-CylanceDetectionRuleSet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionrulesets" title="Get-CylanceDetectionRuleSets" class="md-nav__link">
+    Get-CylanceDetectionRuleSets
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetections" title="Get-CylanceDetections" class="md-nav__link">
+    Get-CylanceDetections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedevice" title="Get-CylanceDevice" class="md-nav__link">
+    Get-CylanceDevice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedevices" title="Get-CylanceDevices" class="md-nav__link">
+    Get-CylanceDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedevicethreats" title="Get-CylanceDeviceThreats" class="md-nav__link">
+    Get-CylanceDeviceThreats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceglobalquarantinelist" title="Get-CylanceGlobalQuarantineList" class="md-nav__link">
+    Get-CylanceGlobalQuarantineList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceglobalsafelist" title="Get-CylanceGlobalSafeList" class="md-nav__link">
+    Get-CylanceGlobalSafeList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceinstaqueries" title="Get-CylanceInstaQueries" class="md-nav__link">
+    Get-CylanceInstaQueries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceinstaquery" title="Get-CylanceInstaQuery" class="md-nav__link">
+    Get-CylanceInstaQuery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancelockdownhistory" title="Get-CylanceLockdownHistory" class="md-nav__link">
+    Get-CylanceLockdownHistory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancepolicies" title="Get-CylancePolicies" class="md-nav__link">
+    Get-CylancePolicies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancepolicy" title="Get-CylancePolicy" class="md-nav__link">
+    Get-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancesession" title="Get-CylanceSession" class="md-nav__link">
+    Get-CylanceSession
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancetdr" title="Get-CylanceTDR" class="md-nav__link">
+    Get-CylanceTDR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancethreat" title="Get-CylanceThreat" class="md-nav__link">
+    Get-CylanceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancethreatdevices" title="Get-CylanceThreatDevices" class="md-nav__link">
+    Get-CylanceThreatDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancethreats" title="Get-CylanceThreats" class="md-nav__link">
+    Get-CylanceThreats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceuser" title="Get-CylanceUser" class="md-nav__link">
+    Get-CylanceUser
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceusers" title="Get-CylanceUsers" class="md-nav__link">
+    Get-CylanceUsers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceversion" title="Get-CylanceVersion" class="md-nav__link">
+    Get-CylanceVersion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancezone" title="Get-CylanceZone" class="md-nav__link">
+    Get-CylanceZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancezones" title="Get-CylanceZones" class="md-nav__link">
+    Get-CylanceZones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-cylanceinstaquery" title="Hide-CylanceInstaQuery" class="md-nav__link">
+    Hide-CylanceInstaQuery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylanceartifactanalysis" title="Invoke-CylanceArtifactAnalysis" class="md-nav__link">
+    Invoke-CylanceArtifactAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancedetectionruleanalysis" title="Invoke-CylanceDetectionRuleAnalysis" class="md-nav__link">
+    Invoke-CylanceDetectionRuleAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancedetectionstats" title="Invoke-CylanceDetectionStats" class="md-nav__link">
+    Invoke-CylanceDetectionStats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancethreatanalysis" title="Invoke-CylanceThreatAnalysis" class="md-nav__link">
+    Invoke-CylanceThreatAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancethreatpathanalysis" title="Invoke-CylanceThreatPathAnalysis" class="md-nav__link">
+    Invoke-CylanceThreatPathAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylanceconsole" title="New-CylanceConsole" class="md-nav__link">
+    New-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancedetectionexception" title="New-CylanceDetectionException" class="md-nav__link">
+    New-CylanceDetectionException
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancedetectionruleset" title="New-CylanceDetectionRuleSet" class="md-nav__link">
+    New-CylanceDetectionRuleSet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylanceinstaquery" title="New-CylanceInstaQuery" class="md-nav__link">
+    New-CylanceInstaQuery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancepolicy" title="New-CylancePolicy" class="md-nav__link">
+    New-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylanceuser" title="New-CylanceUser" class="md-nav__link">
+    New-CylanceUser
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancezone" title="New-CylanceZone" class="md-nav__link">
+    New-CylanceZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-cylancedetection" title="Open-CylanceDetection" class="md-nav__link">
+    Open-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylanceconsole" title="Remove-CylanceConsole" class="md-nav__link">
+    Remove-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancedetection" title="Remove-CylanceDetection" class="md-nav__link">
+    Remove-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancedevice" title="Remove-CylanceDevice" class="md-nav__link">
+    Remove-CylanceDevice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancedevicefromzone" title="Remove-CylanceDeviceFromZone" class="md-nav__link">
+    Remove-CylanceDeviceFromZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancepolicy" title="Remove-CylancePolicy" class="md-nav__link">
+    Remove-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancezone" title="Remove-CylanceZone" class="md-nav__link">
+    Remove-CylanceZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-fromcylanceglobalquarantinelist" title="Remove-FromCylanceGlobalQuarantineList" class="md-nav__link">
+    Remove-FromCylanceGlobalQuarantineList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-fromcylanceglobalsafelist" title="Remove-FromCylanceGlobalSafeList" class="md-nav__link">
+    Remove-FromCylanceGlobalSafeList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylanceartifact" title="Select-CylanceArtifact" class="md-nav__link">
+    Select-CylanceArtifact
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylancedetection" title="Select-CylanceDetection" class="md-nav__link">
+    Select-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylancethreat" title="Select-CylanceThreat" class="md-nav__link">
+    Select-CylanceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylancethreatdevices" title="Select-CylanceThreatDevices" class="md-nav__link">
+    Select-CylanceThreatDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-cylanceconsole" title="Set-CylanceConsole" class="md-nav__link">
+    Set-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-cylancepolicyfordevice" title="Set-CylancePolicyForDevice" class="md-nav__link">
+    Set-CylancePolicyForDevice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-cylancesession" title="Set-CylanceSession" class="md-nav__link">
+    Set-CylanceSession
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync-cylancecache" title="Sync-CylanceCache" class="md-nav__link">
+    Sync-CylanceCache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unblock-cylancedevicethreat" title="Unblock-CylanceDeviceThreat" class="md-nav__link">
+    Unblock-CylanceDeviceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancedetection" title="Update-CylanceDetection" class="md-nav__link">
+    Update-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancedetectionexception" title="Update-CylanceDetectionException" class="md-nav__link">
+    Update-CylanceDetectionException
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancepolicy" title="Update-CylancePolicy" class="md-nav__link">
+    Update-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancezone" title="Update-CylanceZone" class="md-nav__link">
+    Update-CylanceZone
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="/TietzeIO.CyAPI/api/" title="TietzeIO.CyAPI" class="md-nav__link">
+      TietzeIO.CyAPI
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="/about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tietzeiocyshell-cmdlets" title="TietzeIO.CyShell Cmdlets" class="md-nav__link">
+    TietzeIO.CyShell Cmdlets
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backup-cylanceopticspackages" title="Backup-CylanceOpticsPackages" class="md-nav__link">
+    Backup-CylanceOpticsPackages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backup-cylancetenant" title="Backup-CylanceTenant" class="md-nav__link">
+    Backup-CylanceTenant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylanceissuersignaturemissingwizard" title="Invoke-CylanceIssuerSignatureMissingWizard" class="md-nav__link">
+    Invoke-CylanceIssuerSignatureMissingWizard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-cylancedevicetozone" title="Add-CylanceDeviceToZone" class="md-nav__link">
+    Add-CylanceDeviceToZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-tocylanceglobalquarantinelist" title="Add-ToCylanceGlobalQuarantineList" class="md-nav__link">
+    Add-ToCylanceGlobalQuarantineList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-tocylanceglobalsafelist" title="Add-ToCylanceGlobalSafeList" class="md-nav__link">
+    Add-ToCylanceGlobalSafeList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-cylancedevicethreat" title="Block-CylanceDeviceThreat" class="md-nav__link">
+    Block-CylanceDeviceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-cylancecache" title="Clear-CylanceCache" class="md-nav__link">
+    Clear-CylanceCache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-cylance" title="Connect-Cylance" class="md-nav__link">
+    Connect-Cylance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-cylanceobjecttojson" title="Convert-CylanceObjectToJson" class="md-nav__link">
+    Convert-CylanceObjectToJson
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-cylancetdrtoxlsx" title="Convert-CylanceTDRtoXLSX" class="md-nav__link">
+    Convert-CylanceTDRtoXLSX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-cylancepolicy" title="Copy-CylancePolicy" class="md-nav__link">
+    Copy-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disconnect-cylance" title="Disconnect-Cylance" class="md-nav__link">
+    Disconnect-Cylance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-cylanceapplicationtemplate" title="Enable-CylanceApplicationTemplate" class="md-nav__link">
+    Enable-CylanceApplicationTemplate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceartifact" title="Get-CylanceArtifact" class="md-nav__link">
+    Get-CylanceArtifact
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancecacheddetections" title="Get-CylanceCachedDetections" class="md-nav__link">
+    Get-CylanceCachedDetections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancecachedthreatdevices" title="Get-CylanceCachedThreatDevices" class="md-nav__link">
+    Get-CylanceCachedThreatDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancecachedthreats" title="Get-CylanceCachedThreats" class="md-nav__link">
+    Get-CylanceCachedThreats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceconsole" title="Get-CylanceConsole" class="md-nav__link">
+    Get-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetection" title="Get-CylanceDetection" class="md-nav__link">
+    Get-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionexception" title="Get-CylanceDetectionException" class="md-nav__link">
+    Get-CylanceDetectionException
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionexceptions" title="Get-CylanceDetectionExceptions" class="md-nav__link">
+    Get-CylanceDetectionExceptions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionrule" title="Get-CylanceDetectionRule" class="md-nav__link">
+    Get-CylanceDetectionRule
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionrules" title="Get-CylanceDetectionRules" class="md-nav__link">
+    Get-CylanceDetectionRules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionruleset" title="Get-CylanceDetectionRuleSet" class="md-nav__link">
+    Get-CylanceDetectionRuleSet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetectionrulesets" title="Get-CylanceDetectionRuleSets" class="md-nav__link">
+    Get-CylanceDetectionRuleSets
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedetections" title="Get-CylanceDetections" class="md-nav__link">
+    Get-CylanceDetections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedevice" title="Get-CylanceDevice" class="md-nav__link">
+    Get-CylanceDevice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedevices" title="Get-CylanceDevices" class="md-nav__link">
+    Get-CylanceDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancedevicethreats" title="Get-CylanceDeviceThreats" class="md-nav__link">
+    Get-CylanceDeviceThreats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceglobalquarantinelist" title="Get-CylanceGlobalQuarantineList" class="md-nav__link">
+    Get-CylanceGlobalQuarantineList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceglobalsafelist" title="Get-CylanceGlobalSafeList" class="md-nav__link">
+    Get-CylanceGlobalSafeList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceinstaqueries" title="Get-CylanceInstaQueries" class="md-nav__link">
+    Get-CylanceInstaQueries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceinstaquery" title="Get-CylanceInstaQuery" class="md-nav__link">
+    Get-CylanceInstaQuery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancelockdownhistory" title="Get-CylanceLockdownHistory" class="md-nav__link">
+    Get-CylanceLockdownHistory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancepolicies" title="Get-CylancePolicies" class="md-nav__link">
+    Get-CylancePolicies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancepolicy" title="Get-CylancePolicy" class="md-nav__link">
+    Get-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancesession" title="Get-CylanceSession" class="md-nav__link">
+    Get-CylanceSession
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancetdr" title="Get-CylanceTDR" class="md-nav__link">
+    Get-CylanceTDR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancethreat" title="Get-CylanceThreat" class="md-nav__link">
+    Get-CylanceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancethreatdevices" title="Get-CylanceThreatDevices" class="md-nav__link">
+    Get-CylanceThreatDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancethreats" title="Get-CylanceThreats" class="md-nav__link">
+    Get-CylanceThreats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceuser" title="Get-CylanceUser" class="md-nav__link">
+    Get-CylanceUser
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceusers" title="Get-CylanceUsers" class="md-nav__link">
+    Get-CylanceUsers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylanceversion" title="Get-CylanceVersion" class="md-nav__link">
+    Get-CylanceVersion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancezone" title="Get-CylanceZone" class="md-nav__link">
+    Get-CylanceZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-cylancezones" title="Get-CylanceZones" class="md-nav__link">
+    Get-CylanceZones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-cylanceinstaquery" title="Hide-CylanceInstaQuery" class="md-nav__link">
+    Hide-CylanceInstaQuery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylanceartifactanalysis" title="Invoke-CylanceArtifactAnalysis" class="md-nav__link">
+    Invoke-CylanceArtifactAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancedetectionruleanalysis" title="Invoke-CylanceDetectionRuleAnalysis" class="md-nav__link">
+    Invoke-CylanceDetectionRuleAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancedetectionstats" title="Invoke-CylanceDetectionStats" class="md-nav__link">
+    Invoke-CylanceDetectionStats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancethreatanalysis" title="Invoke-CylanceThreatAnalysis" class="md-nav__link">
+    Invoke-CylanceThreatAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invoke-cylancethreatpathanalysis" title="Invoke-CylanceThreatPathAnalysis" class="md-nav__link">
+    Invoke-CylanceThreatPathAnalysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylanceconsole" title="New-CylanceConsole" class="md-nav__link">
+    New-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancedetectionexception" title="New-CylanceDetectionException" class="md-nav__link">
+    New-CylanceDetectionException
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancedetectionruleset" title="New-CylanceDetectionRuleSet" class="md-nav__link">
+    New-CylanceDetectionRuleSet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylanceinstaquery" title="New-CylanceInstaQuery" class="md-nav__link">
+    New-CylanceInstaQuery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancepolicy" title="New-CylancePolicy" class="md-nav__link">
+    New-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylanceuser" title="New-CylanceUser" class="md-nav__link">
+    New-CylanceUser
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-cylancezone" title="New-CylanceZone" class="md-nav__link">
+    New-CylanceZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-cylancedetection" title="Open-CylanceDetection" class="md-nav__link">
+    Open-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylanceconsole" title="Remove-CylanceConsole" class="md-nav__link">
+    Remove-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancedetection" title="Remove-CylanceDetection" class="md-nav__link">
+    Remove-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancedevice" title="Remove-CylanceDevice" class="md-nav__link">
+    Remove-CylanceDevice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancedevicefromzone" title="Remove-CylanceDeviceFromZone" class="md-nav__link">
+    Remove-CylanceDeviceFromZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancepolicy" title="Remove-CylancePolicy" class="md-nav__link">
+    Remove-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-cylancezone" title="Remove-CylanceZone" class="md-nav__link">
+    Remove-CylanceZone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-fromcylanceglobalquarantinelist" title="Remove-FromCylanceGlobalQuarantineList" class="md-nav__link">
+    Remove-FromCylanceGlobalQuarantineList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-fromcylanceglobalsafelist" title="Remove-FromCylanceGlobalSafeList" class="md-nav__link">
+    Remove-FromCylanceGlobalSafeList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylanceartifact" title="Select-CylanceArtifact" class="md-nav__link">
+    Select-CylanceArtifact
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylancedetection" title="Select-CylanceDetection" class="md-nav__link">
+    Select-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylancethreat" title="Select-CylanceThreat" class="md-nav__link">
+    Select-CylanceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-cylancethreatdevices" title="Select-CylanceThreatDevices" class="md-nav__link">
+    Select-CylanceThreatDevices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-cylanceconsole" title="Set-CylanceConsole" class="md-nav__link">
+    Set-CylanceConsole
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-cylancepolicyfordevice" title="Set-CylancePolicyForDevice" class="md-nav__link">
+    Set-CylancePolicyForDevice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-cylancesession" title="Set-CylanceSession" class="md-nav__link">
+    Set-CylanceSession
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sync-cylancecache" title="Sync-CylanceCache" class="md-nav__link">
+    Sync-CylanceCache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unblock-cylancedevicethreat" title="Unblock-CylanceDeviceThreat" class="md-nav__link">
+    Unblock-CylanceDeviceThreat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancedetection" title="Update-CylanceDetection" class="md-nav__link">
+    Update-CylanceDetection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancedetectionexception" title="Update-CylanceDetectionException" class="md-nav__link">
+    Update-CylanceDetectionException
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancepolicy" title="Update-CylancePolicy" class="md-nav__link">
+    Update-CylancePolicy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-cylancezone" title="Update-CylanceZone" class="md-nav__link">
+    Update-CylanceZone
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="tietzeiocyshell-module">TietzeIO.CyShell Module<a class="headerlink" href="#tietzeiocyshell-module" title="Permanent link">&para;</a></h1>
+<h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
+<p>A PowerShell module for fast, easy, and reliable interaction with the Cylance REST API services.</p>
+<h2 id="tietzeiocyshell-cmdlets">TietzeIO.CyShell Cmdlets<a class="headerlink" href="#tietzeiocyshell-cmdlets" title="Permanent link">&para;</a></h2>
+<h3 id="backup-cylanceopticspackages"><a href="Backup-CylanceOpticsPackages.html">Backup-CylanceOpticsPackages</a><a class="headerlink" href="#backup-cylanceopticspackages" title="Permanent link">&para;</a></h3>
+<p>Creates a backup of OPTICS packages to local ZIP files</p>
+<h3 id="backup-cylancetenant"><a href="Backup-CylanceTenant.html">Backup-CylanceTenant</a><a class="headerlink" href="#backup-cylancetenant" title="Permanent link">&para;</a></h3>
+<p>Creates a backup of settings in a tenant</p>
+<h3 id="invoke-cylanceissuersignaturemissingwizard"><a href="Invoke-CylanceIssuerSignatureMissingWizard.html">Invoke-CylanceIssuerSignatureMissingWizard</a><a class="headerlink" href="#invoke-cylanceissuersignaturemissingwizard" title="Permanent link">&para;</a></h3>
+<p>Tests for OPTICS detection instances that are likely caused by a local configuration issue in the tenant environment (outside the Cylance configuration) preventing Windows from performing proper certificate validation checks</p>
+<h3 id="add-cylancedevicetozone"><a href="Add-CylanceDeviceToZone.html">Add-CylanceDeviceToZone</a><a class="headerlink" href="#add-cylancedevicetozone" title="Permanent link">&para;</a></h3>
+<p>Adds a device to a zone</p>
+<h3 id="add-tocylanceglobalquarantinelist"><a href="Add-ToCylanceGlobalQuarantineList.html">Add-ToCylanceGlobalQuarantineList</a><a class="headerlink" href="#add-tocylanceglobalquarantinelist" title="Permanent link">&para;</a></h3>
+<p>Adds a file hash to the Global Quarantine list</p>
+<h3 id="add-tocylanceglobalsafelist"><a href="Add-ToCylanceGlobalSafeList.html">Add-ToCylanceGlobalSafeList</a><a class="headerlink" href="#add-tocylanceglobalsafelist" title="Permanent link">&para;</a></h3>
+<p>Adds a file hash to the Global Safelist</p>
+<h3 id="block-cylancedevicethreat"><a href="Block-CylanceDeviceThreat.html">Block-CylanceDeviceThreat</a><a class="headerlink" href="#block-cylancedevicethreat" title="Permanent link">&para;</a></h3>
+<p>Blocks (quarantines) a file-based threat on a device</p>
+<h3 id="clear-cylancecache"><a href="Clear-CylanceCache.html">Clear-CylanceCache</a><a class="headerlink" href="#clear-cylancecache" title="Permanent link">&para;</a></h3>
+<p>Clears the session cache for the current session</p>
+<h3 id="connect-cylance"><a href="Connect-Cylance.html">Connect-Cylance</a><a class="headerlink" href="#connect-cylance" title="Permanent link">&para;</a></h3>
+<p>Connects to the Cylance API for a console</p>
+<h3 id="convert-cylanceobjecttojson"><a href="Convert-CylanceObjectToJson.html">Convert-CylanceObjectToJson</a><a class="headerlink" href="#convert-cylanceobjecttojson" title="Permanent link">&para;</a></h3>
+<p>Converts an object used by the module into the JSON representation typically sent to the REST backend (used mostly for troubleshooting purposes by module contributors)</p>
+<h3 id="convert-cylancetdrtoxlsx"><a href="Convert-CylanceTDRtoXLSX.html">Convert-CylanceTDRtoXLSX</a><a class="headerlink" href="#convert-cylancetdrtoxlsx" title="Permanent link">&para;</a></h3>
+<p>Converts a Cylance Threat Data Report to XLSX</p>
+<h3 id="copy-cylancepolicy"><a href="Copy-CylancePolicy.html">Copy-CylancePolicy</a><a class="headerlink" href="#copy-cylancepolicy" title="Permanent link">&para;</a></h3>
+<p>Creates a duplicate (clone) of a Cylance device policy</p>
+<h3 id="disconnect-cylance"><a href="Disconnect-Cylance.html">Disconnect-Cylance</a><a class="headerlink" href="#disconnect-cylance" title="Permanent link">&para;</a></h3>
+<p>Disconnects an API session</p>
+<h3 id="enable-cylanceapplicationtemplate"><a href="Enable-CylanceApplicationTemplate.html">Enable-CylanceApplicationTemplate</a><a class="headerlink" href="#enable-cylanceapplicationtemplate" title="Permanent link">&para;</a></h3>
+<p>Adds and enables an application template to a device policy</p>
+<h3 id="get-cylanceartifact"><a href="Get-CylanceArtifact.html">Get-CylanceArtifact</a><a class="headerlink" href="#get-cylanceartifact" title="Permanent link">&para;</a></h3>
+<p>Retrieves an artifact from a detection event</p>
+<h3 id="get-cylancecacheddetections"><a href="Get-CylanceCachedDetections.html">Get-CylanceCachedDetections</a><a class="headerlink" href="#get-cylancecacheddetections" title="Permanent link">&para;</a></h3>
+<p>Dumps cached detections from the current session</p>
+<h3 id="get-cylancecachedthreatdevices"><a href="Get-CylanceCachedThreatDevices.html">Get-CylanceCachedThreatDevices</a><a class="headerlink" href="#get-cylancecachedthreatdevices" title="Permanent link">&para;</a></h3>
+<p>Retrieves cached threat instances</p>
+<h3 id="get-cylancecachedthreats"><a href="Get-CylanceCachedThreats.html">Get-CylanceCachedThreats</a><a class="headerlink" href="#get-cylancecachedthreats" title="Permanent link">&para;</a></h3>
+<p>Retrieves cached threats</p>
+<h3 id="get-cylanceconsole"><a href="Get-CylanceConsole.html">Get-CylanceConsole</a><a class="headerlink" href="#get-cylanceconsole" title="Permanent link">&para;</a></h3>
+<p>Retrieves API/console configuration entries</p>
+<h3 id="get-cylancedetection"><a href="Get-CylanceDetection.html">Get-CylanceDetection</a><a class="headerlink" href="#get-cylancedetection" title="Permanent link">&para;</a></h3>
+<p>Retrieves a detection with details</p>
+<h3 id="get-cylancedetectionexception"><a href="Get-CylanceDetectionException.html">Get-CylanceDetectionException</a><a class="headerlink" href="#get-cylancedetectionexception" title="Permanent link">&para;</a></h3>
+<p>Retrieves a detection exception definition</p>
+<h3 id="get-cylancedetectionexceptions"><a href="Get-CylanceDetectionExceptions.html">Get-CylanceDetectionExceptions</a><a class="headerlink" href="#get-cylancedetectionexceptions" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all detection exceptions</p>
+<h3 id="get-cylancedetectionrule"><a href="Get-CylanceDetectionRule.html">Get-CylanceDetectionRule</a><a class="headerlink" href="#get-cylancedetectionrule" title="Permanent link">&para;</a></h3>
+<p>Retrieves a detection rule with details</p>
+<h3 id="get-cylancedetectionrules"><a href="Get-CylanceDetectionRules.html">Get-CylanceDetectionRules</a><a class="headerlink" href="#get-cylancedetectionrules" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all detection rules</p>
+<h3 id="get-cylancedetectionruleset"><a href="Get-CylanceDetectionRuleSet.html">Get-CylanceDetectionRuleSet</a><a class="headerlink" href="#get-cylancedetectionruleset" title="Permanent link">&para;</a></h3>
+<p>Retrieves a detection rule set with details</p>
+<h3 id="get-cylancedetectionrulesets"><a href="Get-CylanceDetectionRuleSets.html">Get-CylanceDetectionRuleSets</a><a class="headerlink" href="#get-cylancedetectionrulesets" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all detection rulesets</p>
+<h3 id="get-cylancedetections"><a href="Get-CylanceDetections.html">Get-CylanceDetections</a><a class="headerlink" href="#get-cylancedetections" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for the 10000 most recent detections</p>
+<h3 id="get-cylancedevice"><a href="Get-CylanceDevice.html">Get-CylanceDevice</a><a class="headerlink" href="#get-cylancedevice" title="Permanent link">&para;</a></h3>
+<p>Retrieves details for a device</p>
+<h3 id="get-cylancedevices"><a href="Get-CylanceDevices.html">Get-CylanceDevices</a><a class="headerlink" href="#get-cylancedevices" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all devices</p>
+<h3 id="get-cylancedevicethreats"><a href="Get-CylanceDeviceThreats.html">Get-CylanceDeviceThreats</a><a class="headerlink" href="#get-cylancedevicethreats" title="Permanent link">&para;</a></h3>
+<p>Retrieves all threat instances for a device</p>
+<h3 id="get-cylanceglobalquarantinelist"><a href="Get-CylanceGlobalQuarantineList.html">Get-CylanceGlobalQuarantineList</a><a class="headerlink" href="#get-cylanceglobalquarantinelist" title="Permanent link">&para;</a></h3>
+<p>Retrieves the Global Quarantine list</p>
+<h3 id="get-cylanceglobalsafelist"><a href="Get-CylanceGlobalSafeList.html">Get-CylanceGlobalSafeList</a><a class="headerlink" href="#get-cylanceglobalsafelist" title="Permanent link">&para;</a></h3>
+<p>Retrieves the Global Safelist</p>
+<h3 id="get-cylanceinstaqueries"><a href="Get-CylanceInstaQueries.html">Get-CylanceInstaQueries</a><a class="headerlink" href="#get-cylanceinstaqueries" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all InstaQueries</p>
+<h3 id="get-cylanceinstaquery"><a href="Get-CylanceInstaQuery.html">Get-CylanceInstaQuery</a><a class="headerlink" href="#get-cylanceinstaquery" title="Permanent link">&para;</a></h3>
+<p>Retrieves all data for a particular InstaQuery</p>
+<h3 id="get-cylancelockdownhistory"><a href="Get-CylanceLockdownHistory.html">Get-CylanceLockdownHistory</a><a class="headerlink" href="#get-cylancelockdownhistory" title="Permanent link">&para;</a></h3>
+<p>Retrieves the lockdown history and certain metadata items for a device</p>
+<h3 id="get-cylancepolicies"><a href="Get-CylancePolicies.html">Get-CylancePolicies</a><a class="headerlink" href="#get-cylancepolicies" title="Permanent link">&para;</a></h3>
+<p>Retrievs metadata for all device policies</p>
+<h3 id="get-cylancepolicy"><a href="Get-CylancePolicy.html">Get-CylancePolicy</a><a class="headerlink" href="#get-cylancepolicy" title="Permanent link">&para;</a></h3>
+<p>Retrieves a device policy</p>
+<h3 id="get-cylancesession"><a href="Get-CylanceSession.html">Get-CylanceSession</a><a class="headerlink" href="#get-cylancesession" title="Permanent link">&para;</a></h3>
+<p>Returns the current API session</p>
+<h3 id="get-cylancetdr"><a href="Get-CylanceTDR.html">Get-CylanceTDR</a><a class="headerlink" href="#get-cylancetdr" title="Permanent link">&para;</a></h3>
+<p>Downloads a Threat Data Report</p>
+<h3 id="get-cylancethreat"><a href="Get-CylanceThreat.html">Get-CylanceThreat</a><a class="headerlink" href="#get-cylancethreat" title="Permanent link">&para;</a></h3>
+<p>Retrieves threat details for a file-based threat</p>
+<h3 id="get-cylancethreatdevices"><a href="Get-CylanceThreatDevices.html">Get-CylanceThreatDevices</a><a class="headerlink" href="#get-cylancethreatdevices" title="Permanent link">&para;</a></h3>
+<p>Retrieves device instance details for a particular threat</p>
+<h3 id="get-cylancethreats"><a href="Get-CylanceThreats.html">Get-CylanceThreats</a><a class="headerlink" href="#get-cylancethreats" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all file-based threats</p>
+<h3 id="get-cylanceuser"><a href="Get-CylanceUser.html">Get-CylanceUser</a><a class="headerlink" href="#get-cylanceuser" title="Permanent link">&para;</a></h3>
+<p>Retrieves a user object</p>
+<h3 id="get-cylanceusers"><a href="Get-CylanceUsers.html">Get-CylanceUsers</a><a class="headerlink" href="#get-cylanceusers" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all user objects</p>
+<h3 id="get-cylanceversion"><a href="Get-CylanceVersion.html">Get-CylanceVersion</a><a class="headerlink" href="#get-cylanceversion" title="Permanent link">&para;</a></h3>
+<p>Returns version information for this module</p>
+<h3 id="get-cylancezone"><a href="Get-CylanceZone.html">Get-CylanceZone</a><a class="headerlink" href="#get-cylancezone" title="Permanent link">&para;</a></h3>
+<p>Retrieves details for a zone</p>
+<h3 id="get-cylancezones"><a href="Get-CylanceZones.html">Get-CylanceZones</a><a class="headerlink" href="#get-cylancezones" title="Permanent link">&para;</a></h3>
+<p>Retrieves metadata for all zones</p>
+<h3 id="hide-cylanceinstaquery"><a href="Hide-CylanceInstaQuery.html">Hide-CylanceInstaQuery</a><a class="headerlink" href="#hide-cylanceinstaquery" title="Permanent link">&para;</a></h3>
+<p>Removes an InstaQuery from view in the console</p>
+<h3 id="invoke-cylanceartifactanalysis"><a href="Invoke-CylanceArtifactAnalysis.html">Invoke-CylanceArtifactAnalysis</a><a class="headerlink" href="#invoke-cylanceartifactanalysis" title="Permanent link">&para;</a></h3>
+<p>Performs an analysis of cached detection details and mines for commonality in artifacts, allowing easy identification of candidates for the creation of detection exclusions</p>
+<h3 id="invoke-cylancedetectionruleanalysis"><a href="Invoke-CylanceDetectionRuleAnalysis.html">Invoke-CylanceDetectionRuleAnalysis</a><a class="headerlink" href="#invoke-cylancedetectionruleanalysis" title="Permanent link">&para;</a></h3>
+<p>TODO OUTDATED Performs frequency analysis of detections by detection rule.</p>
+<h3 id="invoke-cylancedetectionstats"><a href="Invoke-CylanceDetectionStats.html">Invoke-CylanceDetectionStats</a><a class="headerlink" href="#invoke-cylancedetectionstats" title="Permanent link">&para;</a></h3>
+<p>Performs frequency analysis of detections by detection rule.</p>
+<h3 id="invoke-cylancethreatanalysis"><a href="Invoke-CylanceThreatAnalysis.html">Invoke-CylanceThreatAnalysis</a><a class="headerlink" href="#invoke-cylancethreatanalysis" title="Permanent link">&para;</a></h3>
+<p>Performs frequency analysis of cached threats by classification. Output can be used to quarantine/safelist</p>
+<h3 id="invoke-cylancethreatpathanalysis"><a href="Invoke-CylanceThreatPathAnalysis.html">Invoke-CylanceThreatPathAnalysis</a><a class="headerlink" href="#invoke-cylancethreatpathanalysis" title="Permanent link">&para;</a></h3>
+<p>Performs frequency analysis of cached threats by path. Output can be used to quarantine/safelist</p>
+<h3 id="new-cylanceconsole"><a href="New-CylanceConsole.html">New-CylanceConsole</a><a class="headerlink" href="#new-cylanceconsole" title="Permanent link">&para;</a></h3>
+<p>Creates a new console configuration entry in the configuration store</p>
+<h3 id="new-cylancedetectionexception"><a href="New-CylanceDetectionException.html">New-CylanceDetectionException</a><a class="headerlink" href="#new-cylancedetectionexception" title="Permanent link">&para;</a></h3>
+<p>Creates a new detection exception rule</p>
+<h3 id="new-cylancedetectionruleset"><a href="New-CylanceDetectionRuleSet.html">New-CylanceDetectionRuleSet</a><a class="headerlink" href="#new-cylancedetectionruleset" title="Permanent link">&para;</a></h3>
+<p>Creates a new detection rule set</p>
+<h3 id="new-cylanceinstaquery"><a href="New-CylanceInstaQuery.html">New-CylanceInstaQuery</a><a class="headerlink" href="#new-cylanceinstaquery" title="Permanent link">&para;</a></h3>
+<p>Starts a new InstaQuery</p>
+<h3 id="new-cylancepolicy"><a href="New-CylancePolicy.html">New-CylancePolicy</a><a class="headerlink" href="#new-cylancepolicy" title="Permanent link">&para;</a></h3>
+<p>Creates a new device policy</p>
+<h3 id="new-cylanceuser"><a href="New-CylanceUser.html">New-CylanceUser</a><a class="headerlink" href="#new-cylanceuser" title="Permanent link">&para;</a></h3>
+<p>Creates a new console user</p>
+<h3 id="new-cylancezone"><a href="New-CylanceZone.html">New-CylanceZone</a><a class="headerlink" href="#new-cylancezone" title="Permanent link">&para;</a></h3>
+<p>Creates a new zone for devices</p>
+<h3 id="open-cylancedetection"><a href="Open-CylanceDetection.html">Open-CylanceDetection</a><a class="headerlink" href="#open-cylancedetection" title="Permanent link">&para;</a></h3>
+<p>Opens a browser with the details view for a particular detection</p>
+<h3 id="remove-cylanceconsole"><a href="Remove-CylanceConsole.html">Remove-CylanceConsole</a><a class="headerlink" href="#remove-cylanceconsole" title="Permanent link">&para;</a></h3>
+<p>Removes a console configuration entry from the configuration store</p>
+<h3 id="remove-cylancedetection"><a href="Remove-CylanceDetection.html">Remove-CylanceDetection</a><a class="headerlink" href="#remove-cylancedetection" title="Permanent link">&para;</a></h3>
+<p>Removes a detection</p>
+<h3 id="remove-cylancedevice"><a href="Remove-CylanceDevice.html">Remove-CylanceDevice</a><a class="headerlink" href="#remove-cylancedevice" title="Permanent link">&para;</a></h3>
+<p>Removes a device</p>
+<h3 id="remove-cylancedevicefromzone"><a href="Remove-CylanceDeviceFromZone.html">Remove-CylanceDeviceFromZone</a><a class="headerlink" href="#remove-cylancedevicefromzone" title="Permanent link">&para;</a></h3>
+<p>Removes a device from a zone</p>
+<h3 id="remove-cylancepolicy"><a href="Remove-CylancePolicy.html">Remove-CylancePolicy</a><a class="headerlink" href="#remove-cylancepolicy" title="Permanent link">&para;</a></h3>
+<p>Removes a policy</p>
+<h3 id="remove-cylancezone"><a href="Remove-CylanceZone.html">Remove-CylanceZone</a><a class="headerlink" href="#remove-cylancezone" title="Permanent link">&para;</a></h3>
+<p>Removes a zone</p>
+<h3 id="remove-fromcylanceglobalquarantinelist"><a href="Remove-FromCylanceGlobalQuarantineList.html">Remove-FromCylanceGlobalQuarantineList</a><a class="headerlink" href="#remove-fromcylanceglobalquarantinelist" title="Permanent link">&para;</a></h3>
+<p>Removes a file hash from the Global Quarantine List</p>
+<h3 id="remove-fromcylanceglobalsafelist"><a href="Remove-FromCylanceGlobalSafeList.html">Remove-FromCylanceGlobalSafeList</a><a class="headerlink" href="#remove-fromcylanceglobalsafelist" title="Permanent link">&para;</a></h3>
+<p>Removes a file hash from the Global Safelist</p>
+<h3 id="select-cylanceartifact"><a href="Select-CylanceArtifact.html">Select-CylanceArtifact</a><a class="headerlink" href="#select-cylanceartifact" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="select-cylancedetection"><a href="Select-CylanceDetection.html">Select-CylanceDetection</a><a class="headerlink" href="#select-cylancedetection" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="select-cylancethreat"><a href="Select-CylanceThreat.html">Select-CylanceThreat</a><a class="headerlink" href="#select-cylancethreat" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="select-cylancethreatdevices"><a href="Select-CylanceThreatDevices.html">Select-CylanceThreatDevices</a><a class="headerlink" href="#select-cylancethreatdevices" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="set-cylanceconsole"><a href="Set-CylanceConsole.html">Set-CylanceConsole</a><a class="headerlink" href="#set-cylanceconsole" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="set-cylancepolicyfordevice"><a href="Set-CylancePolicyForDevice.html">Set-CylancePolicyForDevice</a><a class="headerlink" href="#set-cylancepolicyfordevice" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="set-cylancesession"><a href="Set-CylanceSession.html">Set-CylanceSession</a><a class="headerlink" href="#set-cylancesession" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="sync-cylancecache"><a href="Sync-CylanceCache.html">Sync-CylanceCache</a><a class="headerlink" href="#sync-cylancecache" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="unblock-cylancedevicethreat"><a href="Unblock-CylanceDeviceThreat.html">Unblock-CylanceDeviceThreat</a><a class="headerlink" href="#unblock-cylancedevicethreat" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="update-cylancedetection"><a href="Update-CylanceDetection.html">Update-CylanceDetection</a><a class="headerlink" href="#update-cylancedetection" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="update-cylancedetectionexception"><a href="Update-CylanceDetectionException.html">Update-CylanceDetectionException</a><a class="headerlink" href="#update-cylancedetectionexception" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="update-cylancepolicy"><a href="Update-CylancePolicy.html">Update-CylancePolicy</a><a class="headerlink" href="#update-cylancepolicy" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+<h3 id="update-cylancezone"><a href="Update-CylanceZone.html">Update-CylanceZone</a><a class="headerlink" href="#update-cylancezone" title="Permanent link">&para;</a></h3>
+<p>Fill in the Description</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="examples.html" title="Examples" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Examples
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.245445c6.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Using the library </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Using the library ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="using-the-library">Using the library</h1>
+
+<p>The library uses <code>async/await</code> for everything (yes, it uses <code>.ConfigureAwait(false)</code> in all transactions), so your code will have to be either async itself, or use a
+wrapper like <a href="https://www.nuget.org/packages/Nito.AsyncEx/">Nito.AsyncEx</a> if you need to consume synchroneously and want nicely unwrapped exceptions.</p>
+<h2 id="using-the-api-in-c">Using the API in C#</h2>
+<ul>
+<li>Add the Nuget package <code>TietzeIO.CyAPI</code> and its dependencies to your project</li>
+<li>Add the Nuget package <code>TietzeIO.CyAPI.Configuration.DPAPI</code> (on Windows) and <code>TietzeIO.CyAPI.Configuration.Plaintext</code> (on all platforms) to your project</li>
+</ul>
+<p>To connect to the API, use e.g. <a href="https://jan-tee.github.io/TietzeIO.CyShell/">TietzeIO.CyShell</a> to create console configuration entries in your local configuration storage. You may also supply API credentials directly, but for most use cases, re-using credentials from a local store is a better fit.</p>
+<p>To obtain an API session:</p>
+<pre><code class="lang-csharp">var _api = new ApiV2(ConfigurationManager.Default.Get(@&quot;MyConsoleName&quot;), ApiProxy);
+_api
+    .ConnectAsync()
+    .WaitAndUnwrapException();
+</code></pre>
+<p>To request a list of devices:</p>
+<pre><code class="lang-csharp">var devices = _api
+    .RequestDeviceListAsync()
+    .Result;
+</code></pre>
+<p>All APIs are <code>async</code>, so using the synchronous patterns above is not best practice and meant for illustration purposes only.</p>
+<p>You may refer to the <a href="https://github.com/jan-tee/TietzeIO.CyShell/">TietzeIO.CyShell</a> as sample code.</p>
+<h2 id="using-the-api-in-python-on-windows">Using the API in Python on Windows</h2>
+<p>TO use the API with Python on Windows, it is easiest to copy the distribution obtained from the Powershell module <a href="/TietzeIO.CyShell/">TietzeIO.CyShell</a> and install <a href="https://github.com/pythonnet/pythonnet/wiki">Pythonnet</a>, e.g.</p>
+<pre><code>pip install pythonnet
+</code></pre>
+<p>Then <code>cd</code> to the directory containing the <code>.dll</code> files from the CyShell distribution and start using the API from Python:</p>
+<pre><code class="lang-python">import clr
+clr.AddReference('TietzeIO.CyAPI.Configuration.Plaintext')
+clr.AddReference('TietzeIO.CyAPI.Configuration.DPAPI')
+clr.AddReference('TietzeIO.CyAPI.CAE')
+clr.AddReference('TietzeIO.CyAPI')
+from TietzeIO.CyAPI import ApiV2
+from TietzeIO.CyAPI.Configuration import ConfigurationManager
+api = ApiV2(ConfigurationManager.Default.Get('QAro'))
+api.ConnectAsync().Wait()
+devices = api.RequestDeviceListAsync().Result
+policies = api.GetPoliciesAsync().Result
+
+print (&quot;Devices in console:&quot;)
+for d in devices:
+    print (d.device_name)
+
+print (&quot;Policies in console:&quot;)
+for p in policies:
+    print (p.name)
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/docfx_project/articles/using_cyapi.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4211 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/jtietze/Repos/TietzeIO.CyAPI/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.Bucket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.Bucket.html",
+          "hash": "4Kkg3qHOCM8iBokEusNU+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.BucketCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.BucketCollection.html",
+          "hash": "k077xhfykepYP+P3R8PLig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.CombinedDetectionState.DetectionGroupingRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.CombinedDetectionState.DetectionGroupingRule.html",
+          "hash": "Hn4d7XOWPsv1QU4Q308dpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.CombinedDetectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.CombinedDetectionState.html",
+          "hash": "6nG5E5j/aE+dUT2dVmrCLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.DetectionAnalyzer.DetectionRuleStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.DetectionAnalyzer.DetectionRuleStats.html",
+          "hash": "eCcVpu1apRNlhQUcAobo7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.DetectionAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.DetectionAnalyzer.html",
+          "hash": "eHOEp/ZH1Lm4zHLx9yifqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Analytics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Analytics.html",
+          "hash": "0VfRvQOOUaaa5T9rdhyDMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ApiV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ApiV2.html",
+          "hash": "9/6myj4x0chSwlBt/r3ZCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Attributes.TagAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Attributes.TagAttribute.html",
+          "hash": "iKQl5C20imUljKvgn/wmdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Attributes.html",
+          "hash": "zLbhG/UpFFcjwUFKVx8y6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Base.ObservableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Base.ObservableObject.html",
+          "hash": "v6F1L+fzEkmdHTFUPLQmSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Base.html",
+          "hash": "hrbbuTBqVd319BQXYyPPHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Arity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Arity.html",
+          "hash": "ADXQFw0fwbWDjRS1qQ+GgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.MappingNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.MappingNotFoundException.html",
+          "hash": "KPKLOe4YQwYrUDLOZjXSdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.RuleElementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.RuleElementType.html",
+          "hash": "rgkJp6blJ4hPK3nfOFvRGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.RuleOperandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.RuleOperandType.html",
+          "hash": "OAbee8be9bYzDRe7gha9dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.ArtifactsConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.ArtifactsConfiguration.html",
+          "hash": "1oJytBMlnY9GAWImxl7F0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.OperandTypeConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.OperandTypeConfiguration.html",
+          "hash": "hI8AKUR8+C1dRde1MnqFwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.OperatorTypeMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.OperatorTypeMap.html",
+          "hash": "SGkpLwvEHjKuCDk0D3Y5fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.TypeConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.TypeConfiguration.html",
+          "hash": "ggpxfVcgvct1D/WyZpcN7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.Schema.html",
+          "hash": "KiRmEDvqADIO6n4wjArLBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.SchemaReflector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.SchemaReflector.html",
+          "hash": "Sr3IeEzTOu9RH/HAaxr95A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Configurability.html",
+          "hash": "nPaqKDFAOUGHDOOiKiQoKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.IActionConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.IActionConverter.html",
+          "hash": "u6Hg2jdvt7HHXm/QnqrYdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.IFilterConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.IFilterConverter.html",
+          "hash": "IqKJY+VRe6lDWI5CcHSHwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.IPAddressValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.IPAddressValueConverter.html",
+          "hash": "2YWS5MiB3dyINgn5xV7W9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.JsonParseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.JsonParseException.html",
+          "hash": "hm07uy3fRYcb4gBMmKdmoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.OperandConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.OperandConverter.html",
+          "hash": "lWDdnQ6Nyc7T1LCfoQnw6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.OperatorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.OperatorConverter.html",
+          "hash": "WPOC+tmT5Qoju3NoWjylJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.RegexMatchFieldOperatorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.RegexMatchFieldOperatorConverter.html",
+          "hash": "gSL44tP61eN1zg6IW9eBbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.RuleConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.RuleConverter.html",
+          "hash": "mEwWtCuTha627Id+PtRJvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.RuleConverter2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.RuleConverter2.html",
+          "hash": "RCbljObQ7/d02CBCPUZJ7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.StateConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.StateConverter.html",
+          "hash": "Wky1I3RRcRUh5oaWVQfG+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.TimeSpanValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.TimeSpanValueConverter.html",
+          "hash": "lnCf+RIiWzDAoub6cSAbhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.TypeValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.TypeValueConverter.html",
+          "hash": "vOl1+IteHDwp26gTHwKVhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.Json.html",
+          "hash": "IlqbX7iSSIte23V7CmHokw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.AOIAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.AOIAction.html",
+          "hash": "rXiLs6oADotmaBT+mEXmyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.Action.html",
+          "hash": "W8CxnEoFDU1Zh6jMAdTaEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.IAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.IAction.html",
+          "hash": "GzvJAs2rHmB+h2YDETEsew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.SetVariableByExtractorAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.SetVariableByExtractorAction.html",
+          "hash": "mBX/DT2Yz+CWBnPFq1EwYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Actions.html",
+          "hash": "F72omSgEVGbsBL7aUQGKWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.ActionPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.ActionPosition.html",
+          "hash": "CgZZ6URiawljh2epQYY8rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.CAEElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.CAEElement.html",
+          "hash": "dAg/jowbI5EYEPttU1vyNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement.html",
+          "hash": "J6lYbw/HiuEi6lWQ5b9lvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEOrderableElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEOrderableElement.html",
+          "hash": "2NS1ZbLE1A9Fa3DwO+Fm5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Base.html",
+          "hash": "Boff93CWpn+Ist1Dhss8GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.CaeRuleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.CaeRuleHelper.html",
+          "hash": "ID+gjyeRlwqhyY96Q0robA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter.EventFilterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter.EventFilterData.html",
+          "hash": "Yn9eSu4Dxkh/PHA7qULQlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter.html",
+          "hash": "DMHQz52nJQuWwpZXnMlydw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilterValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilterValidator.html",
+          "hash": "rJgmd1T4DP6y/Cdc5zyT8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.IFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.IFilter.html",
+          "hash": "RjmhRvEvJ3tPs2zlY7xuMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Filters.html",
+          "hash": "f5JMzHanWrAm7OybdBD0dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.IOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.IOperand.html",
+          "hash": "fj4U4d4EX5jwlGoM6Uk9tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.Literal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.Literal-1.html",
+          "hash": "EN+MQITRzUIZS/YkYY8AuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.Operand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.Operand-1.html",
+          "hash": "DcVJiLF04++Ls/OvfLvi1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.Base.html",
+          "hash": "XjlWpiOR2Weh+CzrAwlHbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.BooleanDataOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.BooleanDataOperand.html",
+          "hash": "kV5Ko0UOwMfPBN7dliIlfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.DataOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.DataOperand.html",
+          "hash": "dHOOn82BspjLxw6ct8qutQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.IPAddressDataOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.IPAddressDataOperand.html",
+          "hash": "tTCylqId5wLWBsNjVVIt5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.IntegerDataOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.IntegerDataOperand.html",
+          "hash": "hgSTQxpXK4dwHps/f+sm1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.StringDataOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.StringDataOperand.html",
+          "hash": "DqkJF0DmTFxFANlF1vVDkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.DataOperand.html",
+          "hash": "ucD/jsR1wQVihgNf6efl6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.EnvVar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.EnvVar.html",
+          "hash": "Jvb40NprZ+dbynst/Lb2Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralInteger.html",
+          "hash": "JzsNSgKDlaXrCWCGDaqTbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSet-1.html",
+          "hash": "DNXfk4/GgSdFwrw/YUFZIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSetIPAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSetIPAddress.html",
+          "hash": "zyxzdY2AxjSygSK+Nojr0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSetInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSetInteger.html",
+          "hash": "+EWHSsrrW2CO+SdL2h0FMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSetString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.LiteralSetString.html",
+          "hash": "fu/I4kOv0596K3BCQJJ8Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralSet.html",
+          "hash": "ogeoFgFyp4Htw3UWp9WuDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralString.html",
+          "hash": "aWWVnqAdqGqT32DUkuUPGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralWithEnvVar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.LiteralWithEnvVar.html",
+          "hash": "QmW+0igrfF1l7BCmc4ZpmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.RuleVarOperand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.RuleVarOperand.html",
+          "hash": "e/JAKICTsAwCUxc9zn3bjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operands.html",
+          "hash": "934ULHNqKkUV/YYx2b4pbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.IOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.IOperator.html",
+          "hash": "cPAOu2Fe357Mj9T4lUI4Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.IntegerOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.IntegerOperator.html",
+          "hash": "xFRt3cTalmgNI19kOxsGLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.Operator.html",
+          "hash": "6uYOVL7QwLCzH0yB1ZhbJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.StringOperator.OptionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.StringOperator.OptionsData.html",
+          "hash": "bYrysl+qhphFAQHwqlrM2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.StringOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.StringOperator.html",
+          "hash": "/TzliM0G6RoTpW1n2wuHIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.html",
+          "hash": "aP7tQANKGjFLtdg8RuH8cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.ComplexOperators.RegexMatchFieldOperator.OptionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.ComplexOperators.RegexMatchFieldOperator.OptionsData.html",
+          "hash": "XH2McGtDlgfvq+VCbb1YZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.ComplexOperators.RegexMatchFieldOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.ComplexOperators.RegexMatchFieldOperator.html",
+          "hash": "jJjGC6mjJWcUPDdj3RlS7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.ComplexOperators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.ComplexOperators.html",
+          "hash": "2v4YVr3tk6e6a+afcX0poQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.EqualsAnyOperator.StringOptionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.EqualsAnyOperator.StringOptionsData.html",
+          "hash": "UtN9iXdJ96DWEt4dpneNxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.EqualsAnyOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.EqualsAnyOperator.html",
+          "hash": "WXS3bpMxLB13nHZlxVxokQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.GreaterThanOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.GreaterThanOperator.html",
+          "hash": "SFCwqjXzFkaWcWLcUsdoyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.GreaterThanOrEqualsOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.GreaterThanOrEqualsOperator.html",
+          "hash": "INhfyfNc5qPAFXa7D4ZR2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.InRangeOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.InRangeOperator.html",
+          "hash": "bIDqGsInuTajNd231DcWHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.LessThanOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.LessThanOperator.html",
+          "hash": "Lwe6C9dMPEDDrwJbAvunmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.LessThanOrEqualsOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.LessThanOrEqualsOperator.html",
+          "hash": "zld15Bsd1mKGXGNDTlfU1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IntegerOperators.html",
+          "hash": "h/Crbfj+Nnvu2S1G2JGWHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IpIsInRangeOperator.OptionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IpIsInRangeOperator.OptionsData.html",
+          "hash": "FyhglzuADtTcgjamsOmPFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IpIsInRangeOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IpIsInRangeOperator.html",
+          "hash": "bT+pi2GjQ5QgzJOcCZSy/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsHomoglyphOperator.OptionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsHomoglyphOperator.OptionsData.html",
+          "hash": "wAsx328xgz19bOMXbAjl2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsHomoglyphOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsHomoglyphOperator.html",
+          "hash": "GX2g1HOhlVAu0a+vr7D8MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsPopulatedOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsPopulatedOperator.html",
+          "hash": "onlW8Nn6NsrTuKi2MocJUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsTrueOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.IsTrueOperator.html",
+          "hash": "f2tQBCY39jLMi312v68oJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.LevenshteinDistanceOperator.OptionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.LevenshteinDistanceOperator.OptionsData.html",
+          "hash": "YfqJKnjfS7nO0QioxHhazA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.LevenshteinDistanceOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.LevenshteinDistanceOperator.html",
+          "hash": "bVLMP9X4ZBCsMdcu0WxD+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAllOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAllOperator.html",
+          "hash": "H2d1hubrHTq8ucRTHmj1CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAllWordsOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAllWordsOperator.html",
+          "hash": "teoKsvwUIs3u/E0NdGPqfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAnyOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAnyOperator.html",
+          "hash": "kkoHwjaue0JqmEqEw/k2Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAnyWordOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsAnyWordOperator.html",
+          "hash": "bZ1YGQQMmvkQ8BOtVQ9zjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsWordOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.ContainsWordOperator.html",
+          "hash": "eAPuMtnR2k0Yv1ooGMpLZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.EndsWithAnyOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.EndsWithAnyOperator.html",
+          "hash": "rwxGCwlu0imCRsscXRPAwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.StartsWithAnyOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.StartsWithAnyOperator.html",
+          "hash": "w38b6JznH75u36Bvw6xdhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.StringOperators.html",
+          "hash": "doY3OnTRRshs6fjQGkaFDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Operators.html",
+          "hash": "Kozg/44kcV3IA7Bxw9rhoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Path.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Path.html",
+          "hash": "HtHqb9HJ+dKRaXjmMmRBgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.OperatingSystemDetails.OperatingSystemName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.OperatingSystemDetails.OperatingSystemName.html",
+          "hash": "NqBHwh4e08nAX4OXRpeLTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.OperatingSystemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.OperatingSystemDetails.html",
+          "hash": "CkSLsWWe+hrb0JbiVp9a7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.RuleSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.RuleSeverity.html",
+          "hash": "7aO7qYFKHUaQX1DjICcr2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.Rule.html",
+          "hash": "YNra/S0mCvb/E9nQ68s/jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.State.StateScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.State.StateScope.html",
+          "hash": "0adoL7dcWZQ/aJBexYfkXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.State.html",
+          "hash": "75Bi78JlSZCZWfyeWqjAlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.CAE.RuleElements.html",
+          "hash": "aA6EAsRrWjzQwfoN/sJgeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.ApiV2Configuration.ConfigurationManagerDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.ApiV2Configuration.ConfigurationManagerDefinition.html",
+          "hash": "Zsclak1FkjH8+pUxcRH5kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.ApiV2Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.ApiV2Configuration.html",
+          "hash": "+QBJbORJFE0K7TAuKWTO0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.ConfigurationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.ConfigurationData.html",
+          "hash": "bmdKfHmLIIuojie0kcXzKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.ConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.ConfigurationManager.html",
+          "hash": "E6hA2i6VIra1BQs4WvTyGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.ConfigurationManagerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.ConfigurationManagerBase.html",
+          "hash": "i70uFjMf6kJ3uGqJAhSWjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.ConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.ConfigurationManager.html",
+          "hash": "A5h/kVaqRLf0mZwzZkc8pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.Console.html",
+          "hash": "3rcfFYc1zXtFnJSqx2kldQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.WindowsDPAPIJsonSerializableSecret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.WindowsDPAPIJsonSerializableSecret.html",
+          "hash": "jHpQ2pPWzSo/mRTrvSem4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.WindowsDPAPIJsonSerializableSecretJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.WindowsDPAPIJsonSerializableSecretJsonConverter.html",
+          "hash": "/guvi4s/pL2Lc5hqqZt6Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.DPAPI.html",
+          "hash": "NLHOWOICjRVw78Haq2nCwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Data.DetectionsAnalyzerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Data.DetectionsAnalyzerConfig.html",
+          "hash": "K7ZrRos/Zoi5OpQnyMJZ/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Data.ExclusionTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Data.ExclusionTemplate.html",
+          "hash": "QzDpw0Nvr1YsixOEoEMWpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Data.NormalizationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Data.NormalizationRule.html",
+          "hash": "vpqCXcTKrO8c2jLcE/rVbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Data.html",
+          "hash": "NfOr4eOQB8pnlBxY611y/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.IConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.IConfigurationManager.html",
+          "hash": "mf1TrMRvt2qQluUKxgxyVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.IConfigurationManagerReadOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.IConfigurationManagerReadOnly.html",
+          "hash": "R7BOyPyl1MsZg/FIYUl7ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.IConsoleConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.IConsoleConfig.html",
+          "hash": "+1pZkvscrwanAnqL3WxwJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.ISerializableSecret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.ISerializableSecret.html",
+          "hash": "6ShKV/KcaOycR7Lm0ra2Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.ConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.ConfigurationManager.html",
+          "hash": "KsbU2UTl5BRGEpHtBd91Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.Console.html",
+          "hash": "D3m4eWglT3fbbGj9EOKJbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.PlaintextJsonSerializableSecret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.PlaintextJsonSerializableSecret.html",
+          "hash": "/HIyVeEIsBN9ePBNNNaBTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.PlaintextJsonSerializableSecretJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.PlaintextJsonSerializableSecretJsonConverter.html",
+          "hash": "DEp4orBZ4jBF0gvVL5JMkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.Plaintext.html",
+          "hash": "IgkZHfUS4T6dhZQP0+gm2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.SecureStringExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.SecureStringExt.html",
+          "hash": "zbdrQQ638fce37jRCg/hAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Configuration.html",
+          "hash": "AvlHdoeGG7fFVXRMiievaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyDevice.html",
+          "hash": "JjG/Rx6L33piv2BC8pEL7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceBase.html",
+          "hash": "btFuEqlBeksiDDwjlZQQwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceMetaData.html",
+          "hash": "b5qlSWBYKxWf0nEUyi594A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.html",
+          "hash": "lOUYyTHrAUWrv/uIP7oWnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceThreat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyDeviceThreat.html",
+          "hash": "SbqdHyOBIWHlHlBqUVwB7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyGlobalList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyGlobalList.html",
+          "hash": "/QUKsE+rEvk46yuDohnvgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyThreat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyThreat.html",
+          "hash": "whI+QtiDdHqxxDmBxJnbrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyThreatDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyThreatDevice.html",
+          "hash": "YBJlWfP9DsBvrk0zjDVJ+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyThreatDeviceEnriched.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyThreatDeviceEnriched.html",
+          "hash": "CUEjlkaLsa3poREf5mfdZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyThreatMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyThreatMetaData.html",
+          "hash": "FJDzKDlMb93O95rkj1RMFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyUser.ZoneAcl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyUser.ZoneAcl.html",
+          "hash": "IV3QN17wGxASTWEiiwGJnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyUser.html",
+          "hash": "AAdGrRhsGZbBXb96E7dtmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.CyZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.CyZone.html",
+          "hash": "jbh7jcif3wvSR28S1tsb9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.ICyEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.ICyEntity.html",
+          "hash": "xUvMeXmw7SrUT+o2LwhGkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.ICyThreat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.ICyThreat.html",
+          "hash": "Z89iIBqDm/HTFy6q+5YtJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.ICyThreatInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.ICyThreatInstance.html",
+          "hash": "pRUXiSOxVTVT632cBp7pHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyArtifact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyArtifact.html",
+          "hash": "bAJwT+tpbmXL+0ItyqzBOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyArtifactOfInterest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyArtifactOfInterest.html",
+          "hash": "36xXHE6tf5ep4VYWzz2gVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyArtifactReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyArtifactReference.html",
+          "hash": "V1Gg13fn+WeGpaDQ+hcFsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionProduct.html",
+          "hash": "/GOSm6wYT6LtaBKBJ57yHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionResponse.html",
+          "hash": "p5pnCCO8Ew+7cRb1AX1OEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionTrace.CyDetectionTraceEvent.CyDetectionTraceEventDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionTrace.CyDetectionTraceEvent.CyDetectionTraceEventDetails.html",
+          "hash": "kkmzYFLQQ+DsKwazAdS/9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionTrace.CyDetectionTraceEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionTrace.CyDetectionTraceEvent.html",
+          "hash": "z5oC5OV/BalvjGoG6KO46w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionTrace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectionTrace.html",
+          "hash": "Z3QhKl9ysy6AM72tMmTP7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectorDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyDetectorDescriptor.html",
+          "hash": "1opmwA/Tk802o2oY5hZrHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyNetworkAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.CyNetworkAddress.html",
+          "hash": "3bJ7qrKcM7s/8JKTbXbR1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.DetectionRuleReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.DetectionRuleReference.html",
+          "hash": "o9oI2mniz2ktdCXvY5lcGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.HandlingResponseResult.Result.CyResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.HandlingResponseResult.Result.CyResultCode.html",
+          "hash": "YqyCjpdh3hj1QMVt40aVVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.HandlingResponseResult.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.HandlingResponseResult.Result.html",
+          "hash": "CKZd5TMPKE46bP4T1X7T3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.HandlingResponseResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.HandlingResponseResult.html",
+          "hash": "Kz40GWts4POf5qkMyTTTKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.HandlingResponse.html",
+          "hash": "oowwNAgHjtLB1RjUedKqeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetection.html",
+          "hash": "k5NKltN08I65IwChwtN4cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionException.html",
+          "hash": "DK8denm5E7FTWYv5CLHeyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionExceptionMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionExceptionMetaData.html",
+          "hash": "HUUqZZB0CcLrDtG5Uq44jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionMetaData.html",
+          "hash": "AHFjjGudu9A9voa890YPxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleMetaData.html",
+          "hash": "rEVhSvV/fRlLHqMxGKg9Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.CyDetectionRuleSet_RuleConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.CyDetectionRuleSet_RuleConfiguration.html",
+          "hash": "9c2Z02ZTATr4/uSVUT6aNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.PerRule_ExceptionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.PerRule_ExceptionConfiguration.html",
+          "hash": "b+LpRV1BRmnciA+gTb5KuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.PerRule_ResponseConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.PerRule_ResponseConfig.html",
+          "hash": "oNlfdAIJVF4T5NROjXQ8dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSet.html",
+          "hash": "d00oXd1oKLmRf2+ceWkOKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSetMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyDetectionRuleSetMetaData.html",
+          "hash": "Zm20LN+I1xb9mrZtuWZeAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.CyInstaQueryFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.CyInstaQueryFilter.html",
+          "hash": "DCEb/6QrXOQGTbPdHoz9iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.CyInstaQueryProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.CyInstaQueryProgress.html",
+          "hash": "L3Fh4zFol39cWz9xMUo6Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.CyInstaQueryRelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.CyInstaQueryRelationship.html",
+          "hash": "xkrD7CB8AVZUfJFtf8VfGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyInstaQuery.html",
+          "hash": "VLNJQ/UdSufulF1g0N621g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOperatingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOperatingSystem.html",
+          "hash": "KubDWrjnsJGs/n/Y8lPBFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsDeviceMetaData.LoggedOnUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsDeviceMetaData.LoggedOnUser.html",
+          "hash": "4l2yKigtSTO5U0OoiHEd/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsDeviceMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsDeviceMetaData.html",
+          "hash": "Z74zibKgaPn0qszW6wka7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsPlugin.html",
+          "hash": "zcALdRvZY2ExRlgiRRc/Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyOpticsUser.html",
+          "hash": "AYedYgB+K0VlXsL1uIGuBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackage.html",
+          "hash": "mtQv8D3UVxa1ud/7YZV/oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackageDescriptor.PackageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackageDescriptor.PackageInfo.html",
+          "hash": "fzO3wODo4AL5k3/4RReiGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackageDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackageDescriptor.html",
+          "hash": "HBBO7bEQhChirIPLkOvyUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackageMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.CyPackageMetaData.html",
+          "hash": "45UFGX7stETPIoblDaAWYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.CertSignature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.CertSignature.html",
+          "hash": "PdQKFyypp6Wd34wgvhjxLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.CertSignatureDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.CertSignatureDateTime.html",
+          "hash": "YXjwqxJC0XM0hee+K5/pGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.CertSubject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.CertSubject.html",
+          "hash": "Aq7s7vSN0YSdy02A5XM8Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.FileSignature.html",
+          "hash": "c+YNVX3OMTswcIKGius44A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.ICyDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.ICyDetection.html",
+          "hash": "dgbiZixlM3mIDrgm98ubWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyExecutionTargetDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyExecutionTargetDescriptor.html",
+          "hash": "Liys8ZUF7GOv2u0f/BaoZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyPackageExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyPackageExecution.html",
+          "hash": "K/8BBYPJpnGh+zoh0sI2gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyPackageExecutionTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyPackageExecutionTarget.html",
+          "hash": "qKd3UOjmcA1CMgRO+7imnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyPlaybookExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.CyPlaybookExecution.html",
+          "hash": "PXbYgAIsyBLa6zOd14aStQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.Package.html",
+          "hash": "yGFIP1JEVSpnz8dXQfw6pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Optics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Optics.html",
+          "hash": "OXrmpnSov6qWtbVk9UhlHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.AppControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.AppControl.html",
+          "hash": "2nbbQniRtVXn/rqVaN2RIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.AppControlSetting.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.AppControlSetting.Action.html",
+          "hash": "0plxUXFJFvfG/HfWIIdJ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.AppControlSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.AppControlSetting.html",
+          "hash": "4MtkLYf8e5jb+PD7bqqdxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.CyPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.CyPolicy.html",
+          "hash": "xAT9HhBYFwYHGzZTEc9MNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.CyPolicyMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.CyPolicyMetaData.html",
+          "hash": "LjHPQIH2+fgZpfsOq0Vslw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.CyPolicyMinimalMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.CyPolicyMinimalMetaData.html",
+          "hash": "EgCtXQcweMZ8W/eUC/XZ9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DataPrivacy.DataPrivacyConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DataPrivacy.DataPrivacyConfiguration.html",
+          "hash": "ePRfgId61oNQ/8sbBvvLqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DataPrivacy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DataPrivacy.html",
+          "hash": "Le5SsHOmDTJei7+Gjh3Fjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Device.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Device.Mode.html",
+          "hash": "2wbvHy1MXrQIw6n8MeLrAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Device.html",
+          "hash": "MIqAO4uRtM2N2i/6ys2DrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Exclusion.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Exclusion.Mode.html",
+          "hash": "chhhAfpt8sovWdhDktMqbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Exclusion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.Exclusion.html",
+          "hash": "oNm1uo/OjfSQBFu/cJwQHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.DeviceControl.html",
+          "hash": "Sblug8z6jOagH7nRNffSrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileExclusion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileExclusion.html",
+          "hash": "3DPWrQtM+fMwbaZKMlldfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileTypeActions.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileTypeActions.Action.html",
+          "hash": "lKa8Y+AVTFPmBBHplhd8bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileTypeActions.FileTypeAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileTypeActions.FileTypeAction.html",
+          "hash": "ETDpQzAQt6jUbcXJn57K7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileTypeActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.FileTypeActions.html",
+          "hash": "gfQ1mz0HvYay3op/plPlOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.IPolicyNameValuePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.IPolicyNameValuePair.html",
+          "hash": "17CeZehyE52NbVp2U/noWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.LogPolicy.LogUploadPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.LogPolicy.LogUploadPolicy.html",
+          "hash": "JpEGqNYKQLatVWBy4NJYMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.LogPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.LogPolicy.html",
+          "hash": "ndXxp8oWN8PC8CCOsBIzEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.MemoryPolicy.MemoryViolationSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.MemoryPolicy.MemoryViolationSetting.html",
+          "hash": "i6qk9RxIBN67DpWwlqtsAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.MemoryPolicy.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.MemoryPolicy.Mode.html",
+          "hash": "auumM3s9z94hAnXYk3AEsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.MemoryPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.MemoryPolicy.html",
+          "hash": "RZav35WzRp4pWsIvaWG/RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.PolicyNameValuePair-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.PolicyNameValuePair-1.html",
+          "hash": "NK6wYf29tvJs1BCOlZZIPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.PolicyNameValuePairNumeric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.PolicyNameValuePairNumeric.html",
+          "hash": "uW1ewKutMjTPmO03yjl70g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.GlobalScriptSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.GlobalScriptSettings.html",
+          "hash": "rUy6Ohg52r+9aVnIQbE4Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.PowershellSettings.ConsoleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.PowershellSettings.ConsoleMode.html",
+          "hash": "e3QLgH8ox0E0fT5zXnismQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.PowershellSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.PowershellSettings.html",
+          "hash": "7Eus+zAf9EixLF4n5rNsKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.ScriptInterpreterSettings.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.ScriptInterpreterSettings.Mode.html",
+          "hash": "USCXPh/KHXQu2mw1Bb6ajw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.ScriptInterpreterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.ScriptInterpreterSettings.html",
+          "hash": "UhAuJSP4IWBtbSw0gNYhsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.ScriptControl.html",
+          "hash": "ShIMuLx59rViFc2FyjFqjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Policy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Policy.html",
+          "hash": "Rm04kXQ0QwQB6sECfkwdFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.CyRecipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.CyRecipe.html",
+          "hash": "UtwRR/yBJOBpyoDutUcirw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.RecipeMetadata.DefaultVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.RecipeMetadata.DefaultVariable.html",
+          "hash": "eA85oQ7Z7jmbwy9XHRjIhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.RecipeMetadata.MetadataLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.RecipeMetadata.MetadataLink.html",
+          "hash": "wFd+oUfKPWccWW8DoV84Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.RecipeMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.RecipeMetadata.html",
+          "hash": "tfb6uZoVCae6A6hb9H68/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Recipes.html",
+          "hash": "ebdmXaZkG651WUQb/nlM/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Synthetic.ConsoleStateProxy.CacheFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Synthetic.ConsoleStateProxy.CacheFlags.html",
+          "hash": "sv68xY0kFcn7wwCROskORg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Synthetic.ConsoleStateProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Synthetic.ConsoleStateProxy.html",
+          "hash": "51lrr5WtcL9ot4pbXtpAug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.Synthetic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.Synthetic.html",
+          "hash": "I9Qt1Z68ZcKDvigNC3fhAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Entities.html",
+          "hash": "dv9psqofyGPw/eli+Ww2qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Exceptions.ApiV2Exception.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Exceptions.ApiV2Exception.html",
+          "hash": "UUCzlZ3RseSxua4NMr1jcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Exceptions.ApiV2TimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Exceptions.ApiV2TimeoutException.html",
+          "hash": "BnABYubefSfquYIVcJVkpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Exceptions.html",
+          "hash": "Vnwi1ng5Usc9SyOCVikQXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.ApiV2FlurlClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.ApiV2FlurlClientFactory.html",
+          "hash": "Y1hk1JBCM3DDUwX7r0FFbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.ApiV2FlurlClientManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.ApiV2FlurlClientManager.html",
+          "hash": "VrNkHa8FG2MQ0YwH5uAqRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.ApiV2FlurlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.ApiV2FlurlExtensions.html",
+          "hash": "ZL/9Fi+V4O4ACKwAB6k1+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.ApiV2InvalidFlurlClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.ApiV2InvalidFlurlClientFactory.html",
+          "hash": "dz7qu48Dt8fgeY4UQvXWAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.Policy.ApiV2ResiliencePolicies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.Policy.ApiV2ResiliencePolicies.html",
+          "hash": "oyh6gt3lLU0hRsEwnp44DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.Policy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.Policy.html",
+          "hash": "1AwX4w4yub77DcV9tRwejg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.SessionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.SessionState.html",
+          "hash": "k011x1KHvstC8wOWxl2ElQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Http.html",
+          "hash": "3lUU3ry5tlJDvNsqbZfLpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.ApiV2JsonSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.ApiV2JsonSerializer.html",
+          "hash": "wlulIyPSVM4tB+1WVzeWRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.BooleanJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.BooleanJsonConverter.html",
+          "hash": "zfpnrFrdg1aIQd6PEz9MTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.ApiV2JsonSerializer2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.ApiV2JsonSerializer2.html",
+          "hash": "DuG9Nt9txjkovHX1jvUEGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.RuleConverter2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.RuleConverter2.html",
+          "hash": "GwTHMfnvSPEkNP8S6O9XKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.RuleConverterExp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.RuleConverterExp.html",
+          "hash": "88vHcFnoQyA3J7uMO1RkVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.Experimental.html",
+          "hash": "YKBViZL6x9pDpzh/Qa0KCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.IPolicyNameValuePairConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.IPolicyNameValuePairConverter.html",
+          "hash": "825JcWAwJaHWH7910swihg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.NumericToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.NumericToStringConverter.html",
+          "hash": "lor2hrCD0VQaJO/PCkeHig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.JSON.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.JSON.html",
+          "hash": "q0sPr+KaaLIbNu7w66RnUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestAddToGlobalList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestAddToGlobalList.html",
+          "hash": "XPP7Q0yYS5rKVCWy1AV+Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestAuthResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestAuthResponse.html",
+          "hash": "mAPJEQxeaauMtdFsAT1X6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDetectionUpdate.FieldUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDetectionUpdate.FieldUpdate.html",
+          "hash": "05dogRRKm73EpK/PJH53WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDetectionUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDetectionUpdate.html",
+          "hash": "U1MaLAZrSu5xuY4NyeQWBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDetectionUpdateResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDetectionUpdateResponse.html",
+          "hash": "g60e/t5SbKDGeNP/9VUjsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDeviceRemovalResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestDeviceRemovalResponse.html",
+          "hash": "0kwxQmakKrkFiBZtyucLIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestLockdownHistory.CyRestLockdownHistoryRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestLockdownHistory.CyRestLockdownHistoryRecord.html",
+          "hash": "NfvAV2fzRHkWZSJjdriGXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestLockdownHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestLockdownHistory.html",
+          "hash": "0QR2jaHK3fIQfrUXwYclsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestPagedResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestPagedResponse-1.html",
+          "hash": "mMSW18X7JAEPKTOEehMjiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestRemoveFromGlobalList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestRemoveFromGlobalList.html",
+          "hash": "BMN4hMHGbvaESETybCMwgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.CyRestUpdateDeviceThreatTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.CyRestUpdateDeviceThreatTransaction.html",
+          "hash": "0GRe6Lult1hNUZz5aycuGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Rest.html",
+          "hash": "SCWfGxPg2RgXP/23cAbW2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.CachedGuidRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.CachedGuidRecord.html",
+          "hash": "WN72SXJ93VaT5ezy7rs8AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ConsoleCacheContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ConsoleCacheContext.html",
+          "hash": "r4wB6TgrieBP8J8piuF93w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ITestableScriptExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ITestableScriptExecution.html",
+          "hash": "ydvm0TEMevORAw0mprP99A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.Script.html",
+          "hash": "J7hh4MhYJPVJ5IS79rAsCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ScriptExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ScriptExecution.html",
+          "hash": "lsA3BkQjTQCTnNx0C5wvsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ScriptsContext.DistinctScriptExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ScriptsContext.DistinctScriptExecution.html",
+          "hash": "csn28u/JJLFq9R1W9UPx+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ScriptsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.ScriptsContext.html",
+          "hash": "5ZdpQDfd7ygNuH1p2AeSGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.Persistence.html",
+          "hash": "GD/Q8hfin08m9DEWWDzCkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRule.html",
+          "hash": "69JSaF7elKzbaLaIfyQiBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRuleSyntaxException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRuleSyntaxException.html",
+          "hash": "8BCNxVRtVLousJyY/+6F/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRuleset.ScriptInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRuleset.ScriptInterpreter.html",
+          "hash": "rZvTIotzckEOzwuQHPBq0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRuleset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.ScriptRuleset.html",
+          "hash": "O2TBtfN9u6MbuYIEGjHMjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ScriptControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ScriptControl.html",
+          "hash": "kQzXyQ+4xUA78wTFmNd41A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Session.JwtToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Session.JwtToken.html",
+          "hash": "riy0d9GJK719h5yjT4mvpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Session.SessionDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Session.SessionDescriptor.html",
+          "hash": "2pIwSi0YPYKIvooEg3nnOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.Session.html",
+          "hash": "K0P+/54nY1ghtnDDI09yaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.ShardUrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.ShardUrl.html",
+          "hash": "xgVFP/efCqaexHqumtyWeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ActionableThreatsReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ActionableThreatsReport.html",
+          "hash": "kary3NSX5qmQti45gbh56w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ClearedReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ClearedReport.html",
+          "hash": "IbgA3OQwAxg8O8QKw4lvQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.DevicesAndPolicyReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.DevicesAndPolicyReport.html",
+          "hash": "5VosCHlu00UfDb+4woqrXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.FrequencyThreatRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.FrequencyThreatRule.html",
+          "hash": "mryW7AQzejMTLIzhItFpMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.HashFlipsReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.HashFlipsReport.html",
+          "hash": "sho8jO3Ad8akquVRd3mUnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.IThreatRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.IThreatRule.html",
+          "hash": "9emBslDX6oyzrpugCwV0sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.OverviewReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.OverviewReport.html",
+          "hash": "phfj3P8fifhLvnQieC/eSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.RegexClassThreatRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.RegexClassThreatRule.html",
+          "hash": "rAW7OsiXAN0un/pm9IU5mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.RegexPathThreatRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.RegexPathThreatRule.html",
+          "hash": "scG+2xWzRXejkvSDeTQd6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.Report.OperationStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.Report.OperationStatus.html",
+          "hash": "zFDlCgqn34B47G08pr9sug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.Report.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.Report.html",
+          "hash": "y4eJaVD2VctO9aAnEfuy8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.SignedThreatRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.SignedThreatRule.html",
+          "hash": "1vHM2LABNy7WTZBIlXTpHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatClass.html",
+          "hash": "AlcU1LARZObxpuhpCJjpiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatPriority.html",
+          "hash": "JlSI2C6qEhxlN3gOse6GgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatRecommendation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatRecommendation.html",
+          "hash": "N5nKetrwYywjytU6ihEMhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatReport.html",
+          "hash": "UsUFGfr7uhg6TVUBhduFPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatResult.html",
+          "hash": "vMNhcaNQIgkrlHqYeUfzfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatRule.html",
+          "hash": "ssIUmICzs3vXmyGx/DPALw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatRuleSingletons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.ThreatRuleSingletons.html",
+          "hash": "izFG7K4B4KWWCwGIqsslwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.Reports.html",
+          "hash": "W3cSSVYY+kW4Z2NMV4+twg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.ThreatDataAggregator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.ThreatDataAggregator.html",
+          "hash": "vj5n+cyqSDOiZwnbJkfIgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.ThreatDataReportRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.ThreatDataReportRenderer.html",
+          "hash": "fOy0RS/PmCq6LMsqrZCwYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.Analytics.html",
+          "hash": "N8ksanWzrSXKnqie3o/IMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ClearedRecord.ClearedRecordClassMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ClearedRecord.ClearedRecordClassMap.html",
+          "hash": "mXkxZuf2CCYBsuH5oXqJeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ClearedRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ClearedRecord.html",
+          "hash": "ouUuoND24LSrvg3sTH51Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.DeviceRecord.DeviceCsvRecordClassMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.DeviceRecord.DeviceCsvRecordClassMap.html",
+          "hash": "5Wwp7MmdKlrWLlNIFycznQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.DeviceRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.DeviceRecord.html",
+          "hash": "+sDQ0xM80aipaj7Y07o0JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ICsvImportJob-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ICsvImportJob-1.html",
+          "hash": "C6GThIroUHEm984p8IpjcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.IFileRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.IFileRecord.html",
+          "hash": "GB7YzkxkH3kSMUNqB2tVsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ITimestampedRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ITimestampedRecord.html",
+          "hash": "Py6CMYEvypxbT8CsJ0BIdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicyRecord.PolicyRecordClassMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicyRecord.PolicyRecordClassMap.html",
+          "hash": "hBzXdmh4Q3n1Fo2RH2uD7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicyRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicyRecord.html",
+          "hash": "XmnM+0Vgkw3kL+ZeOBtdxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.EnforceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.EnforceMode.html",
+          "hash": "RXBCfsM7LA6ZpEBcDKT3AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.EnforceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.EnforceType.html",
+          "hash": "kmuH4sKzAQrZYS52ufdCVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.PolicyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.PolicyInfo.html",
+          "hash": "oguBLdSi/VONasgfB76iPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.PolicySettingsSet.html",
+          "hash": "v+njWOD3yCPbDyIHsNSTdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ThreatsRecord.ThreatsRecordClassMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ThreatsRecord.ThreatsRecordClassMap.html",
+          "hash": "yzQsclOckMjN0u8lnwUqQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ThreatsRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.ThreatsRecord.html",
+          "hash": "zQje1CcT8T3d8rbyRhCTTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.RecordTypes.html",
+          "hash": "+My6V3NFPN1PBxngS1+1Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.ThreatDataCsvDownloader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.ThreatDataCsvDownloader.html",
+          "hash": "0r1ZJI3pmdEwT2QzAn7OVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.ThreatDataCsvReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.ThreatDataCsvReader-1.html",
+          "hash": "ysgizU+w7Uip9benv4ynIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.TDR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.TDR.html",
+          "hash": "vsccNSRtRZLCzVsFOllV0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TietzeIO.CyAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TietzeIO.CyAPI.html",
+          "hash": "C/QYldj7WQCOvcqU0rlHnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "6t3SlIfKcN7mprmgh3/idQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "wjzVInN39vcs+MqyesY/yA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/contributing.html",
+          "hash": "QuGXpdKifGo/ZLHvCDYTUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "iOmuAxFqDVFZeE1foRl5BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "7JqSmeVDX1/eELprB4GxoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/using_cyapi.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/using_cyapi.html",
+          "hash": "NT6KMIzK1wf3maPYaB0kjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "7fINd9sD47LxfFeLlsrAuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "gse0f3MRSXFqFdAgavjhkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 338,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

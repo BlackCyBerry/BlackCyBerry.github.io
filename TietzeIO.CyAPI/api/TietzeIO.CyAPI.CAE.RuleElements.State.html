@@ -1,0 +1,867 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class State
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class State
+   ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State">
+  
+  
+  <h1 id="TietzeIO_CyAPI_CAE_RuleElements_State" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State" class="text-break">Class State
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TietzeIO.CyAPI.CAE.Base.ObservableObject.html">ObservableObject</a></div>
+    <div class="level2"><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.CAEElement.html">CAEElement</a></div>
+    <div class="level3"><span class="xref">State</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement.html">ICAEElement</a></div>
+    <div><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEOrderableElement.html">ICAEOrderableElement</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.CAE.Base.ObservableObject.html#TietzeIO_CyAPI_CAE_Base_ObservableObject_PropertyChanged">ObservableObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.CAE.Base.ObservableObject.html#TietzeIO_CyAPI_CAE_Base_ObservableObject_OnPropertyChanged_System_String_">ObservableObject.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.CAE.Base.ObservableObject.html#TietzeIO_CyAPI_CAE_Base_ObservableObject_SetField__1___0____0_System_String_">ObservableObject.SetField&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.CAE.Base.ObservableObject.html#TietzeIO_CyAPI_CAE_Base_ObservableObject_SetObservableObjectField__1___0____0_System_String_">ObservableObject.SetObservableObjectField&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.html">TietzeIO.CyAPI.CAE.RuleElements</a></h6>
+  <h6><strong>Assembly</strong>: TietzeIO.CyAPI.CAE.dll</h6>
+  <h5 id="TietzeIO_CyAPI_CAE_RuleElements_State_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tag(Type = &quot;State&quot;, ObjectType = RuleElementType.General, ParentTypes = new Type[]{typeof(Rule)}, Description = &quot;&lt;h1&gt;State&lt;/h1&gt;\n&lt;p&gt;&lt;strong&gt;States&lt;/strong&gt; are &lt;em&gt;the&lt;/em&gt; core element of any CAE rule.&lt;/p&gt;\n&lt;p&gt;A State defines a number of conditions that are evaluated with a boolean expression (the &lt;em&gt;function&lt;/em&gt;). When the function evaluates to &lt;strong&gt;true&lt;/strong&gt;, the rule progresses to the next state. When the last State is reached and its function evaluates to &lt;strong&gt;true&lt;/strong&gt;, the CAE Rule is triggered.&lt;/p&gt;&quot;)]
+public class State : CAEElement, INotifyPropertyChanged, ICAEElement, ICAEOrderableElement</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State__ctor.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L71">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State__ctor_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.#ctor*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State__ctor" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.#ctor">State()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State__ctor_System_String_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L78">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State__ctor_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.#ctor*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State__ctor_System_String_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.#ctor(System.String)">State(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Actions.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Actions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L55">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Actions_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Actions*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Actions" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Actions">Actions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ObservableCollection&lt;IAction&gt; Actions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Actions.IAction.html">IAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_ActivationTimeLimit.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.ActivationTimeLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L49">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_ActivationTimeLimit_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.ActivationTimeLimit*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_ActivationTimeLimit" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.ActivationTimeLimit">ActivationTimeLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? ActivationTimeLimit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_FieldOperators.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.FieldOperators%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L63">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_FieldOperators_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.FieldOperators*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_FieldOperators" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.FieldOperators">FieldOperators</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public Dictionary&lt;string, Operator&gt; FieldOperators { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.Operator.html">Operator</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Filters.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Filters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L59">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Filters_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Filters*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Filters" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Filters">Filters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public ObservableCollection&lt;IFilter&gt; Filters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Filters.IFilter.html">IFilter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Function.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Function%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L30">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Function_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Function*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Function" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Function">Function</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Function { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_HarvestContributingEvent.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.HarvestContributingEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L44">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_HarvestContributingEvent_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.HarvestContributingEvent*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_HarvestContributingEvent" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.HarvestContributingEvent">HarvestContributingEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HarvestContributingEvent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Name.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L26">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Name_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Name*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Name" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Parent.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L67">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Parent_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Parent*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Parent" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Parent">Parent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+[JsonIgnore]
+public Rule Parent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Rule.html">Rule</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Scope.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Scope%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L38">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Scope_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Scope*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Scope" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Scope">Scope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State.StateScope Scope { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.State.StateScope.html">State.StateScope</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_AddAction_TietzeIO_CyAPI_CAE_RuleElements_Actions_IAction_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.AddAction(TietzeIO.CyAPI.CAE.RuleElements.Actions.IAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L83">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_AddAction_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddAction*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_AddAction_TietzeIO_CyAPI_CAE_RuleElements_Actions_IAction_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddAction(TietzeIO.CyAPI.CAE.RuleElements.Actions.IAction)">AddAction(IAction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State AddAction(IAction action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Actions.IAction.html">IAction</a></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.State.html">State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_AddEventFilter_TietzeIO_CyAPI_CAE_RuleElements_Filters_IFilter_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.AddEventFilter(TietzeIO.CyAPI.CAE.RuleElements.Filters.IFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L106">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_AddEventFilter_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddEventFilter*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_AddEventFilter_TietzeIO_CyAPI_CAE_RuleElements_Filters_IFilter_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddEventFilter(TietzeIO.CyAPI.CAE.RuleElements.Filters.IFilter)">AddEventFilter(IFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State AddEventFilter(IFilter filter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Filters.IFilter.html">IFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.State.html">State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_AddFieldOperator_System_String_TietzeIO_CyAPI_CAE_RuleElements_Operators_Base_Operator_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.AddFieldOperator(System.String%2CTietzeIO.CyAPI.CAE.RuleElements.Operators.Base.Operator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L97">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_AddFieldOperator_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddFieldOperator*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_AddFieldOperator_System_String_TietzeIO_CyAPI_CAE_RuleElements_Operators_Base_Operator_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddFieldOperator(System.String,TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.Operator)">AddFieldOperator(String, Operator)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State AddFieldOperator(string name, Operator op)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Operators.Base.Operator.html">Operator</a></td>
+        <td><span class="parametername">op</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.State.html">State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_AddFilter_TietzeIO_CyAPI_CAE_RuleElements_Filters_EventFilter_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.AddFilter(TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L90">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_AddFilter_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddFilter*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_AddFilter_TietzeIO_CyAPI_CAE_RuleElements_Filters_EventFilter_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AddFilter(TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter)">AddFilter(EventFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State AddFilter(EventFilter filter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Filters.EventFilter.html">EventFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.State.html">State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_AttachToParent_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEElement_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.AttachToParent(TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L128">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_AttachToParent_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AttachToParent*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_AttachToParent_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEElement_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.AttachToParent(TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement)">AttachToParent(ICAEElement)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AttachToParent(ICAEElement parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement.html">ICAEElement</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.CAEElement.html#TietzeIO_CyAPI_CAE_RuleElements_Base_CAEElement_AttachToParent_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEElement_">CAEElement.AttachToParent(ICAEElement)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_GenerateUnusedFieldOperatorName.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.GenerateUnusedFieldOperatorName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L123">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_GenerateUnusedFieldOperatorName_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.GenerateUnusedFieldOperatorName*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_GenerateUnusedFieldOperatorName" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.GenerateUnusedFieldOperatorName">GenerateUnusedFieldOperatorName()</h4>
+  <div class="markdown level1 summary"><p>Returns an identifier for a field operator that is guaranteed not to be taken already</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GenerateUnusedFieldOperatorName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_Initialize.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L134">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_Initialize_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Initialize*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_Initialize" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.CAEElement.html#TietzeIO_CyAPI_CAE_RuleElements_Base_CAEElement_Initialize">CAEElement.Initialize()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_SetFunction_System_String_.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.SetFunction(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L113">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_SetFunction_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.SetFunction*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_SetFunction_System_String_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.SetFunction(System.String)">SetFunction(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public State SetFunction(string function)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">function</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.State.html">State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEOrderableElement_MoveDown.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.TietzeIO%23CyAPI%23CAE%23RuleElements%23Base%23ICAEOrderableElement%23MoveDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L143">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEOrderableElement_MoveDown_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.TietzeIO#CyAPI#CAE#RuleElements#Base#ICAEOrderableElement#MoveDown*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEOrderableElement_MoveDown" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.TietzeIO#CyAPI#CAE#RuleElements#Base#ICAEOrderableElement#MoveDown">ICAEOrderableElement.MoveDown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ICAEOrderableElement.MoveDown()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEOrderableElement_MoveUp.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State.TietzeIO%23CyAPI%23CAE%23RuleElements%23Base%23ICAEOrderableElement%23MoveUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L142">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_CAE_RuleElements_State_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEOrderableElement_MoveUp_" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.TietzeIO#CyAPI#CAE#RuleElements#Base#ICAEOrderableElement#MoveUp*"></a>
+  <h4 id="TietzeIO_CyAPI_CAE_RuleElements_State_TietzeIO_CyAPI_CAE_RuleElements_Base_ICAEOrderableElement_MoveUp" data-uid="TietzeIO.CyAPI.CAE.RuleElements.State.TietzeIO#CyAPI#CAE#RuleElements#Base#ICAEOrderableElement#MoveUp">ICAEOrderableElement.MoveUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ICAEOrderableElement.MoveUp()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEElement.html">ICAEElement</a>
+  </div>
+  <div>
+      <a class="xref" href="TietzeIO.CyAPI.CAE.RuleElements.Base.ICAEOrderableElement.html">ICAEOrderableElement</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_CAE_RuleElements_State.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.CAE.RuleElements.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI.CAE/RuleElements/State.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

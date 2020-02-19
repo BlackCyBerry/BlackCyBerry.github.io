@@ -1,0 +1,412 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CyThreatDevice
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CyThreatDevice
+   ">
+    <meta name="generator" content="docfx 2.43.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice">
+  
+  
+  <h1 id="TietzeIO_CyAPI_Entities_CyThreatDevice" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice" class="text-break">Class CyThreatDevice
+  </h1>
+  <div class="markdown level0 summary"><p>Describes an instance of a particular threat on a device, as returned by the &quot;Get Threat Devices&quot; API, which returns records for one threat, but many devices.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceBase.html">CyDeviceBase</a></div>
+    <div class="level2"><a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.html">CyDeviceMinimalMetaData</a></div>
+    <div class="level3"><span class="xref">CyThreatDevice</span></div>
+      <div class="level4"><a class="xref" href="TietzeIO.CyAPI.Entities.CyThreatDeviceEnriched.html">CyThreatDeviceEnriched</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TietzeIO.CyAPI.Entities.ICyEntity.html">ICyEntity</a></div>
+    <div><a class="xref" href="TietzeIO.CyAPI.Entities.ICyThreatInstance.html">ICyThreatInstance</a></div>
+    <div><a class="xref" href="TietzeIO.CyAPI.Entities.ICyThreat.html">ICyThreat</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.html#TietzeIO_CyAPI_Entities_CyDeviceMinimalMetaData_state">CyDeviceMinimalMetaData.state</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.html#TietzeIO_CyAPI_Entities_CyDeviceMinimalMetaData_agent_version">CyDeviceMinimalMetaData.agent_version</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.html#TietzeIO_CyAPI_Entities_CyDeviceMinimalMetaData_ip_addresses">CyDeviceMinimalMetaData.ip_addresses</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceMinimalMetaData.html#TietzeIO_CyAPI_Entities_CyDeviceMinimalMetaData_mac_addresses">CyDeviceMinimalMetaData.mac_addresses</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceBase.html#TietzeIO_CyAPI_Entities_CyDeviceBase_device_id">CyDeviceBase.device_id</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceBase.html#TietzeIO_CyAPI_Entities_CyDeviceBase_device_name">CyDeviceBase.device_name</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceBase.html#TietzeIO_CyAPI_Entities_CyDeviceBase_GetAsync_TietzeIO_CyAPI_ApiV2_">CyDeviceBase.GetAsync(ApiV2)</a>
+    </div>
+    <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.CyDeviceBase.html#TietzeIO_CyAPI_Entities_CyDeviceBase_ToString">CyDeviceBase.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TietzeIO.CyAPI.Entities.html">TietzeIO.CyAPI.Entities</a></h6>
+  <h6><strong>Assembly</strong>: TietzeIO.CyAPI.dll</h6>
+  <h5 id="TietzeIO_CyAPI_Entities_CyThreatDevice_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CyThreatDevice : CyDeviceMinimalMetaData, ICyEntity, ICyThreatInstance, ICyThreat</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_date_found.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.date_found%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L28">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_date_found_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.date_found*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_date_found" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.date_found">date_found</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+public DateTime date_found { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_file_path.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.file_path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L25">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_file_path_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.file_path*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_file_path" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.file_path">file_path</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string file_path { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_file_status.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.file_status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L24">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_file_status_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.file_status*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_file_status" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.file_status">file_status</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string file_status { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_policy_id.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.policy_id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L26">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_policy_id_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.policy_id*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_policy_id" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.policy_id">policy_id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+public Guid policy_id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_sha256.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.sha256%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L21">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_sha256_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.sha256*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_sha256" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.sha256">sha256</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public string sha256 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_GetFileName.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.GetFileName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L42">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_GetFileName_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.GetFileName*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_GetFileName" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.GetFileName">GetFileName()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetFileName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice_GetPath.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice.GetPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L31">View Source</a>
+  </span>
+  <a id="TietzeIO_CyAPI_Entities_CyThreatDevice_GetPath_" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.GetPath*"></a>
+  <h4 id="TietzeIO_CyAPI_Entities_CyThreatDevice_GetPath" data-uid="TietzeIO.CyAPI.Entities.CyThreatDevice.GetPath">GetPath()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetPath()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.ICyEntity.html">ICyEntity</a>
+  </div>
+  <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.ICyThreatInstance.html">ICyThreatInstance</a>
+  </div>
+  <div>
+      <a class="xref" href="TietzeIO.CyAPI.Entities.ICyThreat.html">ICyThreat</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/new/master/apiSpec/new?filename=TietzeIO_CyAPI_Entities_CyThreatDevice.md&amp;value=---%0Auid%3A%20TietzeIO.CyAPI.Entities.CyThreatDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jan-tee/TietzeIO.CyAPI/blob/master/src/TietzeIO.CyAPI/Entities/CyDeviceThreat.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
